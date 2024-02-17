@@ -1,0 +1,89 @@
+===========================================================================================
+###################### RJ L7 - Desabilitar conexão com Elo Router SP ######################
+
+modify ltm pool pool_ingress_acqio_8159 members modify { k8s-prd-eloroute-93d2f8eb61-dfb6821c86f9c278.elb.sa-east-1.amazonaws.com:8158 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_acqio_8259 members modify { k8s-prd-eloroute-93d2f8eb61-dfb6821c86f9c278.elb.sa-east-1.amazonaws.com:8258 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_adiq_8121 members modify { k8s-prd-eloroute-da4093d06d-d6600921c24e93f5.elb.sa-east-1.amazonaws.com:8120 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_adiq_8221 members modify { k8s-prd-eloroute-da4093d06d-d6600921c24e93f5.elb.sa-east-1.amazonaws.com:8220 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_adyen_8123 members modify { k8s-prd-eloroute-da4093d06d-d6600921c24e93f5.elb.sa-east-1.amazonaws.com:8122 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_adyen_8223 members modify { k8s-prd-eloroute-da4093d06d-d6600921c24e93f5.elb.sa-east-1.amazonaws.com:8222 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_adyen_brasil_8185 members modify { k8s-prd-eloroute-da4093d06d-d6600921c24e93f5.elb.sa-east-1.amazonaws.com:8184 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_adyen_brasil_8285 members modify { k8s-prd-eloroute-da4093d06d-d6600921c24e93f5.elb.sa-east-1.amazonaws.com:8284 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_agilli_8197 members modify { k8s-prd-eloroute-93d2f8eb61-dfb6821c86f9c278.elb.sa-east-1.amazonaws.com:8196 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_agilli_8297 members modify { k8s-prd-eloroute-93d2f8eb61-dfb6821c86f9c278.elb.sa-east-1.amazonaws.com:8296 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_amadeus_8117 members modify { k8s-prd-eloroute-93d2f8eb61-dfb6821c86f9c278.elb.sa-east-1.amazonaws.com:28116 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_amadeus_8217 members modify { k8s-prd-eloroute-93d2f8eb61-dfb6821c86f9c278.elb.sa-east-1.amazonaws.com:28216 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_bolt_8155 members modify { k8s-prd-eloroute-93d2f8eb61-dfb6821c86f9c278.elb.sa-east-1.amazonaws.com:8154 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_bolt_8255 members modify { k8s-prd-eloroute-93d2f8eb61-dfb6821c86f9c278.elb.sa-east-1.amazonaws.com:8254 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_cabal_8127 members modify { k8s-prd-eloroute-93d2f8eb61-dfb6821c86f9c278.elb.sa-east-1.amazonaws.com:8126 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_cabal_8227 members modify { k8s-prd-eloroute-93d2f8eb61-dfb6821c86f9c278.elb.sa-east-1.amazonaws.com:8226 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_cloudwalk_8179 members modify { k8s-prd-eloroute-1ff698b517-c1ef841282e98f0c.elb.sa-east-1.amazonaws.com:8178 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_cloudwalk_8279 members modify { k8s-prd-eloroute-1ff698b517-c1ef841282e98f0c.elb.sa-east-1.amazonaws.com:8278 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_csu_8141 members modify { k8s-prd-eloroute-f1730d7cbf-97245262dc0a6eb2.elb.sa-east-1.amazonaws.com:8140 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_csu_8241 members modify { k8s-prd-eloroute-f1730d7cbf-97245262dc0a6eb2.elb.sa-east-1.amazonaws.com:8240 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_firstdata_8109 members modify { k8s-prd-eloroute-1ff698b517-c1ef841282e98f0c.elb.sa-east-1.amazonaws.com:8108 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_firstdata_8209 members modify { k8s-prd-eloroute-1ff698b517-c1ef841282e98f0c.elb.sa-east-1.amazonaws.com:8208 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_firstdata_cred_8153 members modify { k8s-prd-eloroute-1ff698b517-c1ef841282e98f0c.elb.sa-east-1.amazonaws.com:8152 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_firstdata_cred_8253 members modify { k8s-prd-eloroute-1ff698b517-c1ef841282e98f0c.elb.sa-east-1.amazonaws.com:8252 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_firstdata_rede_8133 members modify { k8s-prd-eloroute-0a3041ae5e-c88ef89448ea32ff.elb.sa-east-1.amazonaws.com:8132 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_firstdata_rede_8233 members modify { k8s-prd-eloroute-0a3041ae5e-c88ef89448ea32ff.elb.sa-east-1.amazonaws.com:8232 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_firstdata_sorocred_8187 members modify { k8s-prd-eloroute-0a3041ae5e-c88ef89448ea32ff.elb.sa-east-1.amazonaws.com:8186 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_firstdata_sorocred_8287 members modify { k8s-prd-eloroute-0a3041ae5e-c88ef89448ea32ff.elb.sa-east-1.amazonaws.com:8286 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_fis_sorocred_8191 members modify { k8s-prd-eloroute-0a3041ae5e-c88ef89448ea32ff.elb.sa-east-1.amazonaws.com:8190 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_fis_sorocred_8291 members modify { k8s-prd-eloroute-0a3041ae5e-c88ef89448ea32ff.elb.sa-east-1.amazonaws.com:8290 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_getnet_8101 members modify { k8s-prd-eloroute-1873259b76-c0016a08f257dacc.elb.sa-east-1.amazonaws.com:8100 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_getnet_8201 members modify { k8s-prd-eloroute-1873259b76-c0016a08f257dacc.elb.sa-east-1.amazonaws.com:8200 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_globalpayments_8111 members modify { k8s-prd-eloroute-da4093d06d-d6600921c24e93f5.elb.sa-east-1.amazonaws.com:8110 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_globalpayments_8211 members modify { k8s-prd-eloroute-da4093d06d-d6600921c24e93f5.elb.sa-east-1.amazonaws.com:8210 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_granito_8149 members modify { k8s-prd-eloroute-1ff698b517-c1ef841282e98f0c.elb.sa-east-1.amazonaws.com:8148 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_granito_8249 members modify { k8s-prd-eloroute-1ff698b517-c1ef841282e98f0c.elb.sa-east-1.amazonaws.com:8248 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_listo_8143 members modify { k8s-prd-eloroute-f1730d7cbf-97245262dc0a6eb2.elb.sa-east-1.amazonaws.com:8142 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_listo_8243 members modify { k8s-prd-eloroute-f1730d7cbf-97245262dc0a6eb2.elb.sa-east-1.amazonaws.com:8242 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_new_adiq_8411 members modify { k8s-prd-eloroute-da4093d06d-d6600921c24e93f5.elb.sa-east-1.amazonaws.com:8410 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_new_adiq_8511 members modify { k8s-prd-eloroute-da4093d06d-d6600921c24e93f5.elb.sa-east-1.amazonaws.com:8510 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_pagseguro_8115 members modify { k8s-prd-eloroute-80cc5cc3f2-4529674bd6eaeaa3.elb.sa-east-1.amazonaws.com:8114 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_pagseguro_8215 members modify { k8s-prd-eloroute-80cc5cc3f2-4529674bd6eaeaa3.elb.sa-east-1.amazonaws.com:8214 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_picpay_8413 members modify { k8s-prd-eloroute-f1730d7cbf-97245262dc0a6eb2.elb.sa-east-1.amazonaws.com:8412 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_picpay_8513 members modify { k8s-prd-eloroute-f1730d7cbf-97245262dc0a6eb2.elb.sa-east-1.amazonaws.com:8512 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_rede_8103 members modify { k8s-prd-eloroute-180f943665-36c2e87df4545edc.elb.sa-east-1.amazonaws.com:8102 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_rede_8203 members modify { k8s-prd-eloroute-180f943665-36c2e87df4545edc.elb.sa-east-1.amazonaws.com:8202 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_sabre_8119 members modify { k8s-prd-eloroute-f1730d7cbf-97245262dc0a6eb2.elb.sa-east-1.amazonaws.com:8118 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_sabre_8219 members modify { k8s-prd-eloroute-f1730d7cbf-97245262dc0a6eb2.elb.sa-east-1.amazonaws.com:8218 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_safrapay_8113 members modify { k8s-prd-eloroute-93d2f8eb61-dfb6821c86f9c278.elb.sa-east-1.amazonaws.com:8112 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_safrapay_8213 members modify { k8s-prd-eloroute-93d2f8eb61-dfb6821c86f9c278.elb.sa-east-1.amazonaws.com:8212 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_sicredi_8129 members modify { k8s-prd-eloroute-0a3041ae5e-c88ef89448ea32ff.elb.sa-east-1.amazonaws.com:8128 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_sicredi_8229 members modify { k8s-prd-eloroute-0a3041ae5e-c88ef89448ea32ff.elb.sa-east-1.amazonaws.com:8228 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_stone_8107 members modify { k8s-prd-eloroute-e0f9c3632e-028b887c688a4171.elb.sa-east-1.amazonaws.com:8106 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_stone_8207 members modify { k8s-prd-eloroute-e0f9c3632e-028b887c688a4171.elb.sa-east-1.amazonaws.com:8206 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_sumup_8175 members modify { k8s-prd-eloroute-1ff698b517-c1ef841282e98f0c.elb.sa-east-1.amazonaws.com:8174 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_sumup_8275 members modify { k8s-prd-eloroute-1ff698b517-c1ef841282e98f0c.elb.sa-east-1.amazonaws.com:8274 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_vero_8139 members modify { k8s-prd-eloroute-1ff698b517-c1ef841282e98f0c.elb.sa-east-1.amazonaws.com:8138 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_vero_8239 members modify { k8s-prd-eloroute-4ab1c36563-de57d7f5c5b14615.elb.sa-east-1.amazonaws.com:8239 { session user-disabled state user-down } }
