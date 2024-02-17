@@ -1,0 +1,54 @@
+VALIDAÇÃO DE CONEXÃO L4 SP
+
+
+show sys connection virtual-server vs_ingress_nest_27013
+show sys connection virtual-server vs_ingress_nest_27023
+show sys connection virtual-server vs_ingress_nest_27033
+show sys connection virtual-server vs_ingress_nest_27043
+show sys connection virtual-server vs_ingress_nest_27113
+show sys connection virtual-server vs_ingress_nest_27123
+show sys connection virtual-server vs_ingress_nest_27133
+show sys connection virtual-server vs_ingress_nest_27143
+
+
+
+DELETES DE SESSÕES L4 SP
+
+
+delete sys connection virtual-server vs_ingress_nest_27013
+delete sys connection virtual-server vs_ingress_nest_27023
+delete sys connection virtual-server vs_ingress_nest_27033
+delete sys connection virtual-server vs_ingress_nest_27043
+delete sys connection virtual-server vs_ingress_nest_27113
+delete sys connection virtual-server vs_ingress_nest_27123
+delete sys connection virtual-server vs_ingress_nest_27133
+delete sys connection virtual-server vs_ingress_nest_27143
+ 
+
+
+VALIDAÇÃO DE CONEXÃO L4 RJ
+
+
+show sys connection virtual-server vs_ingress_nest_27016
+show sys connection virtual-server vs_ingress_nest_27026
+show sys connection virtual-server vs_ingress_nest_27036
+show sys connection virtual-server vs_ingress_nest_27046
+show sys connection virtual-server vs_ingress_nest_27116
+show sys connection virtual-server vs_ingress_nest_27126
+show sys connection virtual-server vs_ingress_nest_27136
+show sys connection virtual-server vs_ingress_nest_27146
+
+
+
+DELETES DE SESSÕES L4 SP 
+
+
+delete sys connection virtual-server vs_ingress_nest_27016
+delete sys connection virtual-server vs_ingress_nest_27026
+delete sys connection virtual-server vs_ingress_nest_27036
+delete sys connection virtual-server vs_ingress_nest_27046
+delete sys connection virtual-server vs_ingress_nest_27116
+delete sys connection virtual-server vs_ingress_nest_27126
+delete sys connection virtual-server vs_ingress_nest_27136
+delete sys connection virtual-server vs_ingress_nest_27146
+ 

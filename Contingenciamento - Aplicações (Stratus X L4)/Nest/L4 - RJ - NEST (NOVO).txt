@@ -1,0 +1,126 @@
+                                     _                                  __     _____   _____  
+     /\                             | |                                / /    / ____| |  __ \ 
+    /  \     _ __     ___    _ __   | |_    __ _   _ __     _ __      / /    | (___   | |__) |
+   / /\ \   | '_ \   / _ \  | '_ \  | __|  / _` | | '__|   | '_ \    / /      \___ \  |  ___/ 
+  / ____ \  | |_) | | (_) | | | | | | |_  | (_| | | |      | |_) |  / /       ____) | | |     
+ /_/    \_\ | .__/   \___/  |_| |_|  \__|  \__,_| |_|      | .__/  /_/       |_____/  |_|     
+            | |                                            | |                                
+            |_|                                            |_|                                
+___________________________________________________________________________________________________________________
+
+Nest-Core-1
+
+modify ltm pool pool_vs_ingress_nest_27016 members modify { 10.160.21.200:1688 { session user-enabled state user-up } }
+modify ltm pool pool_vs_ingress_nest_27016 members modify { 10.160.96.34:1688 { session user-disabled state user-down} }
+
+Nest-Core-2
+
+modify ltm pool pool_vs_ingress_nest_27026 members modify {10.160.21.201:1688 { session user-enabled state user-up } }
+modify ltm pool pool_vs_ingress_nest_27026 members modify {10.160.96.35:1688 { session user-disabled state user-down} } 
+
+Nest-Core-3
+
+modify ltm pool pool_vs_ingress_nest_27036 members modify {10.160.23.100:1688 { session user-enabled state user-up } }
+modify ltm pool pool_vs_ingress_nest_27036 members modify {10.160.96.36:1688 { session user-disabled state user-down} }
+
+Nest-Core-4
+
+modify ltm pool pool_vs_ingress_nest_27046 members modify {10.160.23.101:1688 { session user-enabled state user-up } }
+modify ltm pool pool_vs_ingress_nest_27046 members modify {10.160.96.37:1688 { session user-disabled state user-down} }
+
+Nest-Core-5
+
+modify ltm pool pool_vs_ingress_nest_27116 members modify {10.160.23.102:1688 { session user-enabled state user-up } }
+modify ltm pool pool_vs_ingress_nest_27116 members modify {10.160.96.38:1688 { session user-disabled state user-down} }
+
+Nest-Core-6
+
+modify ltm pool pool_vs_ingress_nest_27126 members modify {10.160.23.103:1688 { session user-enabled state user-up } }
+modify ltm pool pool_vs_ingress_nest_27126 members modify {10.160.96.39:1688 { session user-disabled state user-down} }
+
+Nest-Core-7
+
+modify ltm pool pool_vs_ingress_nest_27136 members modify {10.160.23.104:1688 { session user-enabled state user-up } }
+modify ltm pool pool_vs_ingress_nest_27136 members modify {10.160.96.40:1688 { session user-disabled state user-down} }
+
+Nest-Core-8
+
+modify ltm pool pool_vs_ingress_nest_27146 members modify {10.160.23.105:1688 { session user-enabled state user-up } }
+modify ltm pool pool_vs_ingress_nest_27146 members modify {10.160.96.41:1688 { session user-disabled state user-down} }
+
+
+
+___________________________________________________________________________________________________________________	
+                                     _                                  __    _____         _ 
+     /\                             | |                                / /   |  __ \       | |
+    /  \     _ __     ___    _ __   | |_    __ _   _ __     _ __      / /    | |__) |      | |
+   / /\ \   | '_ \   / _ \  | '_ \  | __|  / _` | | '__|   | '_ \    / /     |  _  /   _   | |
+  / ____ \  | |_) | | (_) | | | | | | |_  | (_| | | |      | |_) |  / /      | | \ \  | |__| |
+ /_/    \_\ | .__/   \___/  |_| |_|  \__|  \__,_| |_|      | .__/  /_/       |_|  \_\  \____/ 
+            | |                                            | |                                
+            |_|       
+
+
+
+
+
+______________________________________________________________________________________________________________________
+
+
+
+
+Nest-Core-1
+
+modify ltm pool pool_vs_ingress_nest_27016 members modify { 10.160.96.34:1688 { session user-enabled state user-up } }
+modify ltm pool pool_vs_ingress_nest_27016 members modify { 10.160.21.200:1688 { session user-disabled state user-down } }
+
+
+Nest-Core-2
+
+modify ltm pool pool_vs_ingress_nest_27026 members modify {10.160.96.35:1688 { session user-enabled state user-up } }
+modify ltm pool pool_vs_ingress_nest_27026 members modify {10.160.21.201:1688 { session user-disabled state user-down } }
+ 
+
+Nest-Core-3
+
+modify ltm pool pool_vs_ingress_nest_27036 members modify {10.160.96.36:1688 { session user-enabled state user-up } }
+modify ltm pool pool_vs_ingress_nest_27036 members modify {10.160.23.100:1688 { session user-disabled state user-down } }
+
+
+Nest-Core-4
+
+modify ltm pool pool_vs_ingress_nest_27046 members modify {10.160.96.37:1688 { session user-enabled state user-up } }
+modify ltm pool pool_vs_ingress_nest_27046 members modify {10.160.23.101:1688 { session user-disabled state user-down } }
+
+
+Nest-Core-5
+
+modify ltm pool pool_vs_ingress_nest_27116 members modify {10.160.96.38:1688 { session user-enabled state user-up } }
+modify ltm pool pool_vs_ingress_nest_27116 members modify {10.160.23.102:1688 { session user-disabled state user-down } }
+
+
+Nest-Core-6
+
+modify ltm pool pool_vs_ingress_nest_27126 members modify {10.160.96.39:1688 { session user-enabled state user-up } }
+modify ltm pool pool_vs_ingress_nest_27126 members modify {10.160.23.103:1688 { session user-disabled state user-down } }
+
+
+Nest-Core-7
+
+modify ltm pool pool_vs_ingress_nest_27136 members modify {10.160.96.40:1688 { session user-enabled state user-up } }
+modify ltm pool pool_vs_ingress_nest_27136 members modify {10.160.23.104:1688 { session user-disabled state user-down } }
+
+Nest-Core-8
+
+modify ltm pool pool_vs_ingress_nest_27146 members modify {10.160.96.41:1688 { session user-enabled state user-up } }
+modify ltm pool pool_vs_ingress_nest_27146 members modify {10.160.23.105:1688 { session user-disabled state user-down } }
+
+
+
+
+
+
+
+
+
+

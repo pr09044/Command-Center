@@ -1,0 +1,156 @@
+                                     _                                  __     _____   _____  
+     /\                             | |                                / /    / ____| |  __ \ 
+    /  \     _ __     ___    _ __   | |_    __ _   _ __     _ __      / /    | (___   | |__) |
+   / /\ \   | '_ \   / _ \  | '_ \  | __|  / _` | | '__|   | '_ \    / /      \___ \  |  ___/ 
+  / ____ \  | |_) | | (_) | | | | | | |_  | (_| | | |      | |_) |  / /       ____) | | |     
+ /_/    \_\ | .__/   \___/  |_| |_|  \__|  \__,_| |_|      | .__/  /_/       |_____/  |_|     
+            | |                                            | |                                
+            |_|                                            |_|                                
+___________________________________________________________________________________________________________________
+
+modify ltm pool pool_desfazimento_32155 members modify { 10.35.108.38:32155 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_32155 members modify { 10.35.108.39:32155 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_32155 members modify { 10.35.108.41:32155 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_32155 members modify { 10.35.108.42:32155 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_32155 members modify { 10.35.108.43:32155 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_32155 members modify { 10.35.108.44:32155 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_32155 members modify { 10.35.108.45:32155 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_32155 members modify { 10.35.108.46:32155 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_32155 members modify { 10.36.116.22:32155 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_32155 members modify { 10.36.116.29:32155 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_32155 members modify { 10.36.116.32:32155 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_32155 members modify { 10.36.116.33:32155 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_32155 members modify { 10.36.116.42:32155 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_32155 members modify { 10.36.116.46:32155 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_32155 members modify { 10.36.116.51:32155 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_32155 members modify { 10.36.116.53:32155 { session user-disabled state user-down } }
+
+modify ltm pool pool_desfazimento_31757 members modify { 10.35.108.38:31757 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_31757 members modify { 10.35.108.39:31757 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_31757 members modify { 10.35.108.41:31757 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_31757 members modify { 10.35.108.42:31757 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_31757 members modify { 10.35.108.43:31757 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_31757 members modify { 10.35.108.44:31757 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_31757 members modify { 10.35.108.45:31757 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_31757 members modify { 10.35.108.46:31757 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_31757 members modify { 10.36.116.22:31757 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_31757 members modify { 10.36.116.29:31757 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_31757 members modify { 10.36.116.32:31757 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_31757 members modify { 10.36.116.33:31757 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_31757 members modify { 10.36.116.42:31757 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_31757 members modify { 10.36.116.46:31757 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_31757 members modify { 10.36.116.51:31757 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_31757 members modify { 10.36.116.53:31757 { session user-disabled state user-down } }
+
+modify ltm pool pool_desfazimento_32398 members modify { 10.35.108.38:32398 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_32398 members modify { 10.35.108.39:32398 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_32398 members modify { 10.35.108.41:32398 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_32398 members modify { 10.35.108.42:32398 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_32398 members modify { 10.35.108.43:32398 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_32398 members modify { 10.35.108.44:32398 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_32398 members modify { 10.35.108.45:32398 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_32398 members modify { 10.35.108.46:32398 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_32398 members modify { 10.36.116.22:32398 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_32398 members modify { 10.36.116.29:32398 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_32398 members modify { 10.36.116.32:32398 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_32398 members modify { 10.36.116.33:32398 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_32398 members modify { 10.36.116.42:32398 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_32398 members modify { 10.36.116.46:32398 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_32398 members modify { 10.36.116.51:32398 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_32398 members modify { 10.36.116.53:32398 { session user-disabled state user-down } }
+
+modify ltm pool pool_desfazimento_31238 members modify { 10.35.108.38:31238 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_31238 members modify { 10.35.108.39:31238 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_31238 members modify { 10.35.108.41:31238 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_31238 members modify { 10.35.108.42:31238 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_31238 members modify { 10.35.108.43:31238 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_31238 members modify { 10.35.108.44:31238 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_31238 members modify { 10.35.108.45:31238 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_31238 members modify { 10.35.108.46:31238 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_31238 members modify { 10.36.116.22:31238 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_31238 members modify { 10.36.116.29:31238 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_31238 members modify { 10.36.116.32:31238 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_31238 members modify { 10.36.116.33:31238 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_31238 members modify { 10.36.116.42:31238 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_31238 members modify { 10.36.116.46:31238 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_31238 members modify { 10.36.116.51:31238 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_31238 members modify { 10.36.116.53:31238 { session user-disabled state user-down } }
+
+___________________________________________________________________________________________________________________	
+                                     _                                  __    _____         _ 
+     /\                             | |                                / /   |  __ \       | |
+    /  \     _ __     ___    _ __   | |_    __ _   _ __     _ __      / /    | |__) |      | |
+   / /\ \   | '_ \   / _ \  | '_ \  | __|  / _` | | '__|   | '_ \    / /     |  _  /   _   | |
+  / ____ \  | |_) | | (_) | | | | | | |_  | (_| | | |      | |_) |  / /      | | \ \  | |__| |
+ /_/    \_\ | .__/   \___/  |_| |_|  \__|  \__,_| |_|      | .__/  /_/       |_|  \_\  \____/ 
+            | |                                            | |                                
+            |_|                                            |_|                  
+
+
+modify ltm pool pool_desfazimento_32155 members modify { 10.35.108.38:32155 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_32155 members modify { 10.35.108.39:32155 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_32155 members modify { 10.35.108.41:32155 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_32155 members modify { 10.35.108.42:32155 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_32155 members modify { 10.35.108.43:32155 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_32155 members modify { 10.35.108.44:32155 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_32155 members modify { 10.35.108.45:32155 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_32155 members modify { 10.35.108.46:32155 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_32155 members modify { 10.36.116.22:32155 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_32155 members modify { 10.36.116.29:32155 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_32155 members modify { 10.36.116.32:32155 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_32155 members modify { 10.36.116.33:32155 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_32155 members modify { 10.36.116.42:32155 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_32155 members modify { 10.36.116.46:32155 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_32155 members modify { 10.36.116.51:32155 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_32155 members modify { 10.36.116.53:32155 { session user-enabled state user-up } }
+
+modify ltm pool pool_desfazimento_31757 members modify { 10.35.108.38:31757 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_31757 members modify { 10.35.108.39:31757 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_31757 members modify { 10.35.108.41:31757 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_31757 members modify { 10.35.108.42:31757 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_31757 members modify { 10.35.108.43:31757 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_31757 members modify { 10.35.108.44:31757 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_31757 members modify { 10.35.108.45:31757 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_31757 members modify { 10.35.108.46:31757 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_31757 members modify { 10.36.116.22:31757 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_31757 members modify { 10.36.116.29:31757 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_31757 members modify { 10.36.116.32:31757 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_31757 members modify { 10.36.116.33:31757 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_31757 members modify { 10.36.116.42:31757 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_31757 members modify { 10.36.116.46:31757 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_31757 members modify { 10.36.116.51:31757 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_31757 members modify { 10.36.116.53:31757 { session user-enabled state user-up } }
+
+modify ltm pool pool_desfazimento_32398 members modify { 10.35.108.38:32398 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_32398 members modify { 10.35.108.39:32398 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_32398 members modify { 10.35.108.41:32398 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_32398 members modify { 10.35.108.42:32398 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_32398 members modify { 10.35.108.43:32398 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_32398 members modify { 10.35.108.44:32398 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_32398 members modify { 10.35.108.45:32398 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_32398 members modify { 10.35.108.46:32398 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_32398 members modify { 10.36.116.22:32398 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_32398 members modify { 10.36.116.29:32398 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_32398 members modify { 10.36.116.32:32398 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_32398 members modify { 10.36.116.33:32398 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_32398 members modify { 10.36.116.42:32398 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_32398 members modify { 10.36.116.46:32398 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_32398 members modify { 10.36.116.51:32398 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_32398 members modify { 10.36.116.53:32398 { session user-enabled state user-up } }
+
+modify ltm pool pool_desfazimento_31238 members modify { 10.35.108.38:31238 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_31238 members modify { 10.35.108.39:31238 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_31238 members modify { 10.35.108.41:31238 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_31238 members modify { 10.35.108.42:31238 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_31238 members modify { 10.35.108.43:31238 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_31238 members modify { 10.35.108.44:31238 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_31238 members modify { 10.35.108.45:31238 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_31238 members modify { 10.35.108.46:31238 { session user-disabled state user-down } }
+modify ltm pool pool_desfazimento_31238 members modify { 10.36.116.22:31238 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_31238 members modify { 10.36.116.29:31238 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_31238 members modify { 10.36.116.32:31238 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_31238 members modify { 10.36.116.33:31238 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_31238 members modify { 10.36.116.42:31238 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_31238 members modify { 10.36.116.46:31238 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_31238 members modify { 10.36.116.51:31238 { session user-enabled state user-up } }
+modify ltm pool pool_desfazimento_31238 members modify { 10.36.116.53:31238 { session user-enabled state user-up } }

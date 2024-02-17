@@ -1,0 +1,610 @@
+=======================================================================================
+################################### SP L4 - Deletes ###################################
+
+ALELO
+delete sys connection cs-server-port 38273
+delete sys connection ss-server-port 38273
+delete sys connection ss-server-port 38276
+delete sys connection ss-server-port 38274
+delete sys connection ss-server-port 38277
+delete sys connection cs-server-port 28273
+delete sys connection ss-server-port 28273
+delete sys connection ss-server-port 28276
+
+ARBI
+delete sys connection cs-server-port 38353
+delete sys connection ss-server-port 38353
+delete sys connection ss-server-port 38356
+delete sys connection ss-server-port 38354
+delete sys connection ss-server-port 38357
+delete sys connection cs-server-port 28353
+delete sys connection ss-server-port 28353
+delete sys connection ss-server-port 28356
+
+ASAAS
+delete sys connection cs-server-port 38843
+delete sys connection ss-server-port 38843
+delete sys connection ss-server-port 38846
+delete sys connection ss-server-port 38844
+delete sys connection ss-server-port 38847
+delete sys connection cs-server-port 28843
+delete sys connection ss-server-port 28843
+delete sys connection ss-server-port 28846
+
+BANCO ORIGINAL
+delete sys connection cs-server-port 38393
+delete sys connection ss-server-port 38393
+delete sys connection ss-server-port 38396
+delete sys connection ss-server-port 38394
+delete sys connection ss-server-port 38397
+delete sys connection cs-server-port 28393
+delete sys connection ss-server-port 28393
+delete sys connection ss-server-port 28396
+
+BANCO PAN
+delete sys connection cs-server-port 38413
+delete sys connection ss-server-port 38413
+delete sys connection ss-server-port 38416
+delete sys connection ss-server-port 38414
+delete sys connection ss-server-port 38417
+delete sys connection cs-server-port 28413
+delete sys connection ss-server-port 28413
+delete sys connection ss-server-port 28416
+
+BANCO UM (GETNET)
+delete sys connection cs-server-port 38773
+delete sys connection ss-server-port 38773
+delete sys connection ss-server-port 38776
+delete sys connection ss-server-port 38774
+delete sys connection ss-server-port 38777
+delete sys connection cs-server-port 28773
+delete sys connection ss-server-port 28773
+delete sys connection ss-server-port 28776
+
+BANESE
+delete sys connection cs-server-port 38543
+delete sys connection ss-server-port 38543
+delete sys connection ss-server-port 38546
+delete sys connection ss-server-port 38544
+delete sys connection ss-server-port 38547
+delete sys connection cs-server-port 28543
+delete sys connection ss-server-port 28543
+delete sys connection ss-server-port 28546
+
+delete sys connection cs-server-port 38553
+delete sys connection ss-server-port 38553
+delete sys connection ss-server-port 38556
+delete sys connection ss-server-port 38554
+delete sys connection ss-server-port 38557
+delete sys connection cs-server-port 28553
+delete sys connection ss-server-port 28553
+delete sys connection ss-server-port 28556
+
+delete sys connection cs-server-port 38563
+delete sys connection ss-server-port 38563
+delete sys connection ss-server-port 38566
+delete sys connection ss-server-port 38564
+delete sys connection ss-server-port 38567
+delete sys connection cs-server-port 28563
+delete sys connection ss-server-port 28563
+delete sys connection ss-server-port 28566
+
+delete sys connection cs-server-port 38573
+delete sys connection ss-server-port 38573
+delete sys connection ss-server-port 38576
+delete sys connection ss-server-port 38574
+delete sys connection ss-server-port 38577
+delete sys connection cs-server-port 28573
+delete sys connection ss-server-port 28573
+delete sys connection ss-server-port 28576
+
+BARIGUI
+delete sys connection cs-server-port 38713
+delete sys connection ss-server-port 38713
+delete sys connection ss-server-port 38716
+delete sys connection ss-server-port 38714
+delete sys connection ss-server-port 38717
+delete sys connection cs-server-port 28713
+delete sys connection ss-server-port 28713
+delete sys connection ss-server-port 28716
+
+delete sys connection cs-server-port 38723
+delete sys connection ss-server-port 38723
+delete sys connection ss-server-port 38726
+delete sys connection ss-server-port 38724
+delete sys connection ss-server-port 38727
+delete sys connection cs-server-port 28723
+delete sys connection ss-server-port 28723
+delete sys connection ss-server-port 28726
+
+BB
+delete sys connection cs-server-port 38103
+delete sys connection ss-server-port 38103
+delete sys connection ss-server-port 38106
+delete sys connection ss-server-port 38104
+delete sys connection ss-server-port 38107
+delete sys connection cs-server-port 28103
+delete sys connection ss-server-port 28103
+delete sys connection ss-server-port 28106
+
+delete sys connection cs-server-port 38113
+delete sys connection ss-server-port 38113
+delete sys connection ss-server-port 38116
+delete sys connection ss-server-port 38114
+delete sys connection ss-server-port 38117
+delete sys connection cs-server-port 28113
+delete sys connection ss-server-port 28113
+delete sys connection ss-server-port 28116
+
+delete sys connection cs-server-port 38133
+delete sys connection ss-server-port 38133
+delete sys connection ss-server-port 38136
+delete sys connection ss-server-port 38134
+delete sys connection ss-server-port 38137
+delete sys connection cs-server-port 28133
+delete sys connection ss-server-port 28133
+delete sys connection ss-server-port 28136
+
+delete sys connection cs-server-port 38143
+delete sys connection ss-server-port 38143
+delete sys connection ss-server-port 38146
+delete sys connection ss-server-port 38144
+delete sys connection ss-server-port 38147
+delete sys connection cs-server-port 28143
+delete sys connection ss-server-port 28143
+delete sys connection ss-server-port 28146
+
+BBC
+delete sys connection cs-server-port 38863
+delete sys connection ss-server-port 38863
+delete sys connection ss-server-port 38866
+delete sys connection ss-server-port 38864
+delete sys connection ss-server-port 38867
+delete sys connection cs-server-port 28863
+delete sys connection ss-server-port 28863
+delete sys connection ss-server-port 28866
+
+BECKER
+delete sys connection cs-server-port 38683
+delete sys connection ss-server-port 38683
+delete sys connection ss-server-port 38686
+delete sys connection ss-server-port 38684
+delete sys connection ss-server-port 38687
+delete sys connection cs-server-port 28683
+delete sys connection ss-server-port 28683
+delete sys connection ss-server-port 28686
+
+BRADESCARD
+delete sys connection cs-server-port 38223
+delete sys connection ss-server-port 38223
+delete sys connection ss-server-port 38226
+delete sys connection ss-server-port 38224
+delete sys connection ss-server-port 38227
+delete sys connection cs-server-port 28223
+delete sys connection ss-server-port 28223
+delete sys connection ss-server-port 28226
+
+BRADESCO CREDITO
+delete sys connection cs-server-port 38203
+delete sys connection ss-server-port 38203
+delete sys connection ss-server-port 38206
+delete sys connection ss-server-port 38204
+delete sys connection ss-server-port 38207
+delete sys connection cs-server-port 28203
+delete sys connection ss-server-port 28203
+delete sys connection ss-server-port 28206
+
+BRADESCO DEBITO
+delete sys connection cs-server-port 38213
+delete sys connection ss-server-port 38213
+delete sys connection ss-server-port 38216
+delete sys connection ss-server-port 38214
+delete sys connection ss-server-port 38217
+delete sys connection cs-server-port 28213
+delete sys connection ss-server-port 28213
+delete sys connection ss-server-port 28216
+
+BRADESCO PREPAGO
+delete sys connection cs-server-port 38193
+delete sys connection ss-server-port 38193
+delete sys connection ss-server-port 38196
+delete sys connection ss-server-port 38194
+delete sys connection ss-server-port 38197
+delete sys connection cs-server-port 28193
+delete sys connection ss-server-port 28193
+delete sys connection ss-server-port 28196
+
+BV DXC
+delete sys connection cs-server-port 38643
+delete sys connection ss-server-port 38643
+delete sys connection ss-server-port 38646
+delete sys connection ss-server-port 38644
+delete sys connection ss-server-port 38647
+delete sys connection cs-server-port 28643
+delete sys connection ss-server-port 28646
+
+CAIXA CREDITO
+delete sys connection cs-server-port 38463
+delete sys connection ss-server-port 38463
+delete sys connection ss-server-port 38466
+delete sys connection ss-server-port 38464
+delete sys connection ss-server-port 38467
+delete sys connection cs-server-port 28463
+delete sys connection ss-server-port 28463
+delete sys connection ss-server-port 28466
+
+CAIXA DEBITO
+delete sys connection cs-server-port 38483
+delete sys connection ss-server-port 38483
+delete sys connection ss-server-port 38486
+delete sys connection ss-server-port 38484
+delete sys connection ss-server-port 38487
+delete sys connection cs-server-port 28483
+delete sys connection ss-server-port 28483
+delete sys connection ss-server-port 28486
+
+delete sys connection cs-server-port 38633
+delete sys connection ss-server-port 38633
+delete sys connection ss-server-port 38636
+delete sys connection ss-server-port 38634
+delete sys connection ss-server-port 38637
+delete sys connection cs-server-port 28633
+delete sys connection ss-server-port 28633
+delete sys connection ss-server-port 28636
+
+CATENO
+delete sys connection cs-server-port 38903
+delete sys connection ss-server-port 38903
+delete sys connection ss-server-port 38906
+delete sys connection ss-server-port 38904
+delete sys connection ss-server-port 38907
+delete sys connection cs-server-port 28903
+delete sys connection ss-server-port 28903
+delete sys connection ss-server-port 28906
+
+CETELEM
+delete sys connection cs-server-port 38333
+delete sys connection ss-server-port 38333
+delete sys connection ss-server-port 38336
+delete sys connection ss-server-port 38334
+delete sys connection ss-server-port 38337
+delete sys connection cs-server-port 28333
+delete sys connection ss-server-port 28333
+delete sys connection ss-server-port 28336
+
+CONDUCTOR BAHAMAS
+delete sys connection cs-server-port 38363
+delete sys connection ss-server-port 38363
+delete sys connection ss-server-port 38366
+delete sys connection ss-server-port 38364
+delete sys connection ss-server-port 38367
+delete sys connection cs-server-port 28363
+delete sys connection ss-server-port 28363
+delete sys connection ss-server-port 28366
+
+CONDUCTOR FACTA CREDITO
+delete sys connection cs-server-port 38743
+delete sys connection ss-server-port 38743
+delete sys connection ss-server-port 38746
+delete sys connection ss-server-port 38744
+delete sys connection ss-server-port 38747
+delete sys connection cs-server-port 28743
+delete sys connection ss-server-port 28743
+delete sys connection ss-server-port 28746
+
+CONDUCTOR FACTA DEBITO
+delete sys connection cs-server-port 38733
+delete sys connection ss-server-port 38733
+delete sys connection ss-server-port 38736
+delete sys connection ss-server-port 38734
+delete sys connection ss-server-port 38737
+delete sys connection cs-server-port 28733
+delete sys connection ss-server-port 28733
+delete sys connection ss-server-port 28736
+
+CONDUCTOR PEFISA DEBITO
+delete sys connection cs-server-port 38693
+delete sys connection ss-server-port 38693
+delete sys connection ss-server-port 38696
+delete sys connection ss-server-port 38694
+delete sys connection ss-server-port 38697
+delete sys connection cs-server-port 28693
+delete sys connection ss-server-port 28693
+delete sys connection ss-server-port 28696
+
+CONDUCTOR VOX
+delete sys connection cs-server-port 38313
+delete sys connection ss-server-port 38313
+delete sys connection ss-server-port 38316
+delete sys connection ss-server-port 38314
+delete sys connection ss-server-port 38317
+delete sys connection cs-server-port 28313
+delete sys connection ss-server-port 28313
+delete sys connection ss-server-port 28316
+
+CSU BANESE
+delete sys connection cs-server-port 38423
+delete sys connection ss-server-port 38423
+delete sys connection ss-server-port 38426
+delete sys connection ss-server-port 38424
+delete sys connection ss-server-port 38427
+delete sys connection cs-server-port 28423
+delete sys connection ss-server-port 28423
+delete sys connection ss-server-port 28426
+
+DIGIO
+delete sys connection cs-server-port 38853
+delete sys connection ss-server-port 38853
+delete sys connection ss-server-port 38856
+delete sys connection ss-server-port 38854
+delete sys connection ss-server-port 38857
+delete sys connection cs-server-port 28853
+delete sys connection ss-server-port 28853
+delete sys connection ss-server-port 28856
+
+DIGIO DRIVER
+delete sys connection cs-server-port 38453
+delete sys connection ss-server-port 38453
+delete sys connection ss-server-port 38456
+delete sys connection ss-server-port 38454
+delete sys connection ss-server-port 38457
+delete sys connection cs-server-port 28453
+delete sys connection ss-server-port 28453
+delete sys connection ss-server-port 28456
+
+DOCK
+delete sys connection cs-server-port 38933
+delete sys connection ss-server-port 38933
+delete sys connection ss-server-port 38936
+delete sys connection ss-server-port 38934
+delete sys connection ss-server-port 38937
+delete sys connection cs-server-port 28933
+delete sys connection ss-server-port 28933
+delete sys connection ss-server-port 28936
+
+DOCK CREFISA
+delete sys connection cs-server-port 38473
+delete sys connection ss-server-port 38473
+delete sys connection ss-server-port 38476
+delete sys connection ss-server-port 38474
+delete sys connection ss-server-port 38477
+delete sys connection cs-server-port 28473
+delete sys connection ss-server-port 28473
+delete sys connection ss-server-port 28476
+
+DOTZ
+delete sys connection cs-server-port 38913
+delete sys connection ss-server-port 38913
+delete sys connection ss-server-port 38916
+delete sys connection ss-server-port 38914
+delete sys connection ss-server-port 38917
+delete sys connection cs-server-port 28913
+delete sys connection ss-server-port 28913
+delete sys connection ss-server-port 28916
+
+ECVAN
+delete sys connection cs-server-port 38303
+delete sys connection ss-server-port 38303
+delete sys connection ss-server-port 38306
+delete sys connection ss-server-port 38304
+delete sys connection ss-server-port 38307
+delete sys connection cs-server-port 28303
+delete sys connection ss-server-port 28303
+delete sys connection ss-server-port 28306
+
+EDENRED
+delete sys connection cs-server-port 38433
+delete sys connection ss-server-port 38433
+delete sys connection ss-server-port 38436
+delete sys connection ss-server-port 38434
+delete sys connection ss-server-port 38437
+delete sys connection cs-server-port 28433
+delete sys connection ss-server-port 28433
+delete sys connection ss-server-port 28436
+
+EDENRED GOODCARD
+delete sys connection cs-server-port 38443
+delete sys connection ss-server-port 38443
+delete sys connection ss-server-port 38446
+delete sys connection ss-server-port 38444
+delete sys connection ss-server-port 38447
+delete sys connection cs-server-port 28443
+delete sys connection ss-server-port 28443
+delete sys connection ss-server-port 28446
+
+ITSPAY BANESE
+delete sys connection cs-server-port 38233
+delete sys connection ss-server-port 38233
+delete sys connection ss-server-port 38236
+delete sys connection ss-server-port 38234
+delete sys connection ss-server-port 38237
+delete sys connection cs-server-port 28233
+delete sys connection ss-server-port 28233
+delete sys connection ss-server-port 28236
+
+ITSPAY BANK10
+delete sys connection cs-server-port 38803
+delete sys connection ss-server-port 38803
+delete sys connection ss-server-port 38806
+delete sys connection ss-server-port 38804
+delete sys connection ss-server-port 38807
+delete sys connection cs-server-port 28803
+delete sys connection ss-server-port 28803
+delete sys connection ss-server-port 28806
+
+ITSPAY CELLERPAY
+delete sys connection cs-server-port 38663
+delete sys connection ss-server-port 38663
+delete sys connection ss-server-port 38666
+delete sys connection ss-server-port 38664
+delete sys connection ss-server-port 38667
+delete sys connection cs-server-port 28663
+delete sys connection ss-server-port 28663
+delete sys connection ss-server-port 28666
+
+MERCANTIL CREDITO
+delete sys connection cs-server-port 38283
+delete sys connection ss-server-port 38283
+delete sys connection ss-server-port 38286
+delete sys connection ss-server-port 38284
+delete sys connection ss-server-port 38287
+delete sys connection cs-server-port 28283
+delete sys connection ss-server-port 28283
+delete sys connection ss-server-port 28286
+
+MERCANTIL DEBITO
+delete sys connection cs-server-port 38293
+delete sys connection ss-server-port 38293
+delete sys connection ss-server-port 38296
+delete sys connection ss-server-port 38294
+delete sys connection ss-server-port 38297
+delete sys connection cs-server-port 28293
+delete sys connection ss-server-port 28293
+delete sys connection ss-server-port 28296
+
+ORBITALL
+delete sys connection cs-server-port 38653
+delete sys connection ss-server-port 38653
+delete sys connection ss-server-port 38656
+delete sys connection ss-server-port 38654
+delete sys connection ss-server-port 38657
+delete sys connection cs-server-port 28653
+delete sys connection ss-server-port 28653
+delete sys connection ss-server-port 28656
+
+PAYSMART FITBANK
+delete sys connection cs-server-port 38343
+delete sys connection ss-server-port 38343
+delete sys connection ss-server-port 38346
+delete sys connection ss-server-port 38344
+delete sys connection ss-server-port 38347
+delete sys connection cs-server-port 28343
+delete sys connection ss-server-port 28343
+delete sys connection ss-server-port 28346
+
+PAYSMART ISSUER
+delete sys connection cs-server-port 38873
+delete sys connection ss-server-port 38873
+delete sys connection ss-server-port 38876
+delete sys connection ss-server-port 38874
+delete sys connection ss-server-port 38877
+delete sys connection cs-server-port 28873
+delete sys connection ss-server-port 28873
+delete sys connection ss-server-port 28876
+
+PAYSMART SULCREDI
+delete sys connection cs-server-port 38833
+delete sys connection ss-server-port 38833
+delete sys connection ss-server-port 38836
+delete sys connection ss-server-port 38834
+delete sys connection ss-server-port 38837
+delete sys connection cs-server-port 28833
+delete sys connection ss-server-port 28833
+delete sys connection ss-server-port 28836
+
+delete sys connection cs-server-port 38883
+delete sys connection ss-server-port 38883
+delete sys connection ss-server-port 38886
+delete sys connection ss-server-port 38884
+delete sys connection ss-server-port 38887
+delete sys connection cs-server-port 28883
+delete sys connection ss-server-port 28883
+delete sys connection ss-server-port 28886
+
+PAYSMART VOLUS
+delete sys connection cs-server-port 38373
+delete sys connection ss-server-port 38373
+delete sys connection ss-server-port 38376
+delete sys connection ss-server-port 38374
+delete sys connection ss-server-port 38377
+delete sys connection cs-server-port 28373
+delete sys connection ss-server-port 28373
+delete sys connection ss-server-port 28376
+
+PEFISA
+delete sys connection cs-server-port 38703
+delete sys connection ss-server-port 38703
+delete sys connection ss-server-port 38706
+delete sys connection ss-server-port 38704
+delete sys connection ss-server-port 38707
+delete sys connection cs-server-port 28703
+delete sys connection ss-server-port 28703
+delete sys connection ss-server-port 28706
+
+PCIPAY
+delete sys connection cs-server-port 38593
+delete sys connection ss-server-port 38593
+delete sys connection ss-server-port 38596
+delete sys connection ss-server-port 38594
+delete sys connection ss-server-port 38597
+delete sys connection cs-server-port 28593
+delete sys connection ss-server-port 28593
+delete sys connection ss-server-port 28596
+
+RED
+delete sys connection cs-server-port 38523
+delete sys connection ss-server-port 38523
+delete sys connection ss-server-port 38526
+delete sys connection ss-server-port 38524
+delete sys connection ss-server-port 38527
+delete sys connection cs-server-port 28523
+delete sys connection ss-server-port 28523
+delete sys connection ss-server-port 28526
+
+delete sys connection cs-server-port 38533
+delete sys connection ss-server-port 38533
+delete sys connection ss-server-port 38536
+delete sys connection ss-server-port 38534
+delete sys connection ss-server-port 38537
+delete sys connection cs-server-port 28533
+delete sys connection ss-server-port 28533
+delete sys connection ss-server-port 28536
+
+RESOMAQ
+delete sys connection cs-server-port 38263
+delete sys connection ss-server-port 38263
+delete sys connection ss-server-port 38266
+delete sys connection ss-server-port 38264
+delete sys connection ss-server-port 38267
+delete sys connection cs-server-port 28263
+delete sys connection ss-server-port 28263
+delete sys connection ss-server-port 28266
+
+SEVEN
+delete sys connection cs-server-port 38383
+delete sys connection ss-server-port 38383
+delete sys connection ss-server-port 38386
+delete sys connection ss-server-port 38384
+delete sys connection ss-server-port 38387
+delete sys connection cs-server-port 28383
+delete sys connection ss-server-port 28383
+delete sys connection ss-server-port 28386
+
+SEVEN ALELO
+delete sys connection cs-server-port 38323
+delete sys connection ss-server-port 38323
+delete sys connection ss-server-port 38326
+delete sys connection ss-server-port 38324
+delete sys connection ss-server-port 38327
+delete sys connection cs-server-port 28323
+delete sys connection ss-server-port 28323
+delete sys connection ss-server-port 28326
+
+SODEXO
+delete sys connection cs-server-port 38673
+delete sys connection ss-server-port 38673
+delete sys connection ss-server-port 38676
+delete sys connection ss-server-port 38674
+delete sys connection ss-server-port 38677
+delete sys connection cs-server-port 28673
+delete sys connection ss-server-port 28673
+delete sys connection ss-server-port 28676
+
+VERDECARD
+delete sys connection cs-server-port 38763
+delete sys connection ss-server-port 38763
+delete sys connection ss-server-port 38766
+delete sys connection ss-server-port 38764
+delete sys connection ss-server-port 38767
+delete sys connection cs-server-port 28763
+delete sys connection ss-server-port 28766

@@ -1,0 +1,159 @@
+=========================================================================================
+############################## RJ L7 - Ativar conexão com P1 ############################
+
+
+modify ltm pool pool_ingress_acqio_8159 members modify { STRATUS_MC_10:8159 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_acqio_8259 members modify { STRATUS_MC_20:8259 { session user-enabled state user-up } }
+
+modify ltm pool pool_ingress_adiq_8121 members modify { STRATUS_MC_10:8121 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_adiq_8221 members modify { STRATUS_MC_20:8221 { session user-enabled state user-up } }
+
+modify ltm pool pool_ingress_adyen_8123 members modify { STRATUS_MC_10:8123 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_adyen_8223 members modify { STRATUS_MC_20:8223 { session user-enabled state user-up } }
+
+modify ltm pool pool_ingress_adyen_brasil_8185 members modify { STRATUS_MC_10:8185 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_adyen_brasil_8285 members modify { STRATUS_MC_20:8285 { session user-enabled state user-up } }
+
+modify ltm pool pool_ingress_agilli_8197 members modify { STRATUS_MC_10:8197 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_agilli_8297 members modify { STRATUS_MC_20:8297 { session user-enabled state user-up } }
+
+modify ltm pool pool_ingress_amadeus_8117 members modify { STRATUS_MC_10:8117 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_amadeus_8217 members modify { STRATUS_MC_20:8217 { session user-enabled state user-up } }
+
+modify ltm pool pool_ingress_banco_rendimento_8421 members modify { STRATUS_MC_10:8421 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_banco_rendimento_8521 members modify { STRATUS_MC_20:8521 { session user-enabled state user-up } }
+
+modify ltm pool pool_ingress_banese_8189 members modify { STRATUS_MC_10:8189 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_banese_8289 members modify { STRATUS_MC_20:8289 { session user-enabled state user-up } }
+
+modify ltm pool pool_ingress_bolt_8155 members modify { STRATUS_MC_10:8155 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_bolt_8255 members modify { STRATUS_MC_20:8255 { session user-enabled state user-up } }
+
+modify ltm pool pool_ingress_cabal_8127	members modify { STRATUS_MC_10:8127 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_cabal_8227	members modify { STRATUS_MC_20:8227 { session user-enabled state user-up } }
+
+modify ltm pool pool_ingress_cielo_8125 members modify { STRATUS_MC_10:8125 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_cielo_8225 members modify { STRATUS_MC_20:8225 { session user-enabled state user-up } }
+
+modify ltm pool pool_ingress_cloudwalk_8179 members modify { STRATUS_MC_10:8179 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_cloudwalk_8279 members modify { STRATUS_MC_20:8279 { session user-enabled state user-up } }
+
+modify ltm pool pool_ingress_compra_dinners_8173 members modify { STRATUS_MC_10:8173 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_compra_dinners_8273 members modify { STRATUS_MC_20:8273 { session user-enabled state user-up } }
+
+modify ltm pool pool_ingress_conductor_cactvs_8199 members modify { STRATUS_MC_10:8199 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_conductor_cactvs_8299 members modify { STRATUS_MC_20:8299 { session user-enabled state user-up } }
+
+modify ltm pool pool_ingress_conductor_crefisa_8105 members modify { STRATUS_MC_10:8105 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_conductor_crefisa_8205 members modify { STRATUS_MC_20:8205 { session user-enabled state user-up } }
+
+modify ltm pool pool_ingress_conductor_vox_8193 members modify { STRATUS_MC_10:8193 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_conductor_vox_8293 members modify { STRATUS_MC_20:8293 { session user-enabled state user-up } }
+
+modify ltm pool pool_ingress_crefisa_8137 members modify { STRATUS_MC_10:8137 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_crefisa_8237 members modify { STRATUS_MC_20:8237 { session user-enabled state user-up } }
+
+modify ltm pool pool_ingress_crefisa_dxc_8415 members modify { STRATUS_MC_10:8415 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_crefisa_dxc_8515 members modify { STRATUS_MC_20:8515 { session user-enabled state user-up } }
+
+modify ltm pool pool_ingress_csu_8141 members modify { STRATUS_MC_10:8141 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_csu_8241 members modify { STRATUS_MC_20:8241 { session user-enabled state user-up } }
+
+modify ltm pool pool_ingress_cybersource_8409 members modify { STRATUS_MC_10:8409 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_cybersource_8509 members modify { STRATUS_MC_20:8509 { session user-enabled state user-up } }
+
+modify ltm pool pool_ingress_discover_8000 members modify { STRATUS_MC_10:8305 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_discover_8000 members modify { STRATUS_MC_10:8301 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_discover_8000 members modify { STRATUS_MC_10:8309 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_discover_8000 members modify { STRATUS_MC_10:8303 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_discover_8000 members modify { STRATUS_MC_10:8307 { session user-enabled state user-up } }
+
+modify ltm pool pool_ingress_discover_8005 members modify { STRATUS_MC_10:8313 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_discover_8005 members modify { STRATUS_MC_10:8319 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_discover_8005 members modify { STRATUS_MC_10:8317 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_discover_8005 members modify { STRATUS_MC_10:8311 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_discover_8005 members modify { STRATUS_MC_10:8315 { session user-enabled state user-up } }
+
+modify ltm pool pool_ingress_dock_8407 members modify { STRATUS_MC_10:8407 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_dock_8507 members modify { STRATUS_MC_20:8507 { session user-enabled state user-up } }
+
+modify ltm pool pool_ingress_firstdata_8109 members modify { STRATUS_MC_10:8109 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_firstdata_8209 members modify { STRATUS_MC_20:8209 { session user-enabled state user-up } }
+
+modify ltm pool pool_ingress_firstdata_cred_8153 members modify { STRATUS_MC_10:8153 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_firstdata_cred_8253 members modify { STRATUS_MC_20:8253 { session user-enabled state user-up } }
+
+modify ltm pool pool_ingress_firstdata_rede_8133 members modify { STRATUS_MC_10:8133 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_firstdata_rede_8233 members modify { STRATUS_MC_20:8233 { session user-enabled state user-up } }
+
+modify ltm pool pool_ingress_firstdata_sorocred_8187 members modify { STRATUS_MC_10:8187 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_firstdata_sorocred_8287 members modify { STRATUS_MC_20:8287 { session user-enabled state user-up } }
+
+modify ltm pool pool_ingress_fis_pagai_8183 members modify { STRATUS_MC_10:8183 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_fis_pagai_8283 members modify { STRATUS_MC_20:8283 { session user-enabled state user-up } }
+
+modify ltm pool pool_ingress_fis_sorocred_8191 members modify { STRATUS_MC_10:8191 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_fis_sorocred_8291 members modify { STRATUS_MC_20:8291 { session user-enabled state user-up } }
+
+modify ltm pool pool_ingress_getnet_8101 members modify { STRATUS_MC_10:8101 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_getnet_8201 members modify { STRATUS_MC_20:8201 { session user-enabled state user-up } }
+
+modify ltm pool pool_ingress_globalpayments_8111 members modify { STRATUS_MC_10:8111 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_globalpayments_8211 members modify { STRATUS_MC_20:8211 { session user-enabled state user-up } }
+
+modify ltm pool pool_ingress_granito_8149 members modify { STRATUS_MC_10:8149 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_granito_8249 members modify { STRATUS_MC_20:8249 { session user-enabled state user-up } }
+
+modify ltm pool pool_ingress_hubtecban_8195 members modify { STRATUS_MC_10:8195 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_hubtecban_8295 members modify { STRATUS_MC_20:8295 { session user-enabled state user-up } }
+
+modify ltm pool pool_ingress_listo_8143 members modify { STRATUS_MC_10:8143 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_listo_8243 members modify { STRATUS_MC_20:8243 { session user-enabled state user-up } }
+
+modify ltm pool pool_ingress_new_adiq_8411 members modify { STRATUS_MC_10:8411 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_new_adiq_8511 members modify { STRATUS_MC_20:8511 { session user-enabled state user-up } }
+
+modify ltm pool pool_ingress_p2p_8151 members modify { STRATUS_MC_10:8151 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_p2p_8251 members modify { STRATUS_MC_20:8251 { session user-enabled state user-up } }
+
+modify ltm pool pool_ingress_pagseguro_8115 members modify { STRATUS_MC_10:8115 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_pagseguro_8215 members modify { STRATUS_MC_20:8215 { session user-enabled state user-up } }
+
+modify ltm pool pool_ingress_picpay_8413 members modify { STRATUS_MC_10:8413 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_picpay_8513 members modify { STRATUS_MC_20:8513 { session user-enabled state user-up } }
+
+modify ltm pool pool_ingress_rede_8103 members modify { STRATUS_MC_10:8103 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_rede_8203 members modify { STRATUS_MC_20:8203 { session user-enabled state user-up } }
+
+modify ltm pool pool_ingress_redeflex_8403 members modify { STRATUS_MC_10:8403 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_redeflex_8503 members modify { STRATUS_MC_20:8503 { session user-enabled state user-up } }
+
+modify ltm pool pool_ingress_sabre_8119 members modify { STRATUS_MC_10:8119 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_sabre_8219 members modify { STRATUS_MC_20:8219 { session user-enabled state user-up } }
+
+modify ltm pool pool_ingress_safrapay_8113 members modify { STRATUS_MC_10:8113 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_safrapay_8213 members modify { STRATUS_MC_20:8213 { session user-enabled state user-up } }
+
+modify ltm pool pool_ingress_sicredi_8129 members modify { STRATUS_MC_10:8129 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_sicredi_8229 members modify { STRATUS_MC_20:8229 { session user-enabled state user-up } }
+
+modify ltm pool pool_ingress_smartbank_8157 members modify { STRATUS_MC_10:8157 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_smartbank_8257 members modify { STRATUS_MC_20:8257 { session user-enabled state user-up } }
+
+modify ltm pool pool_ingress_stone_8107 members modify { STRATUS_MC_10:8107 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_stone_8207 members modify { STRATUS_MC_20:8207 { session user-enabled state user-up } }
+
+modify ltm pool pool_ingress_stripe_8163 members modify { STRATUS_MC_10:8163 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_stripe_8263 members modify { STRATUS_MC_20:8263 { session user-enabled state user-up } }
+
+modify ltm pool pool_ingress_sumup_8175 members modify { STRATUS_MC_10:8175 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_sumup_8275 members modify { STRATUS_MC_20:8275 { session user-enabled state user-up } }
+
+modify ltm pool pool_ingress_tecban_8135 members modify { STRATUS_MC_10:8135 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_tecban_8235 members modify { STRATUS_MC_20:8235 { session user-enabled state user-up } }
+
+modify ltm pool pool_ingress_travelport_8131 members modify { STRATUS_MC_10:8131 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_travelport_8231 members modify { STRATUS_MC_20:8231 { session user-enabled state user-up } }
+
+modify ltm pool pool_ingress_vero_8139 members modify { STRATUS_MC_10:8139 { session user-enabled state user-up } }
+modify ltm pool pool_ingress_vero_8239 members modify { STRATUS_MC_20:8239 { session user-enabled state user-up } }

@@ -1,0 +1,16 @@
+delete sys connection ss-server-port 32155
+delete sys connection cs-server-port 32155
+delete sys connection ss-client-port 32155
+delete sys connection cs-client-port 32155
+delete sys connection ss-server-port 31757
+delete sys connection cs-server-port 31757
+delete sys connection ss-client-port 31757
+delete sys connection cs-client-port 31757
+delete sys connection ss-server-port 32398
+delete sys connection cs-server-port 32398
+delete sys connection ss-client-port 32398
+delete sys connection cs-client-port 32398
+delete sys connection ss-server-port 31238
+delete sys connection cs-server-port 31238
+delete sys connection ss-client-port 31238
+delete sys connection cs-client-port 31238

@@ -1,0 +1,193 @@
+DESABILITAR COMUNICAÇÃO
+
+CAIXA DEBITO SP (L4)
+
+modify ltm pool pool_engress_caixa_debito_28483 members modify { 10.35.170.130:28483 { session user-disabled state user-down } }
+modify ltm pool pool_engress_caixa_debito_28483 members modify { 10.36.170.130:28486 { session user-disabled state user-down } }
+
+modify ltm pool pool_engress_caixa_debito_28633 members modify { 10.35.170.130:28633 { session user-disabled state user-down } }
+modify ltm pool pool_engress_caixa_debito_28633 members modify { 10.36.170.130:28636 { session user-disabled state user-down } }
+
+
+modify ltm pool pool_elorouter_caixa_debito_38633_210 members modify { k8s-prd-eloroute-c497289c73-2054188186172f5a.elb.sa-east-1.amazonaws.com:38633 { session user-disabled state user-down } }
+modify ltm pool pool_elorouter_caixa_debito_38633_210 members modify { k8s-prd-eloroute-ce7b83cac0-73c5aa285f567af3.elb.sa-east-1.amazonaws.com:38636 { session user-disabled state user-down } }
+
+
+modify ltm pool pool_elorouter_caixa_debito_38633_220 members modify { k8s-prd-eloroute-c497289c73-2054188186172f5a.elb.sa-east-1.amazonaws.com:38634 { session user-disabled state user-down } }
+modify ltm pool pool_elorouter_caixa_debito_38633_220 members modify { k8s-prd-eloroute-ce7b83cac0-73c5aa285f567af3.elb.sa-east-1.amazonaws.com:38637 { session user-disabled state user-down } }
+
+
+modify ltm pool pool_elorouter_caixa_debito_38483_210 members modify { k8s-prd-eloroute-02795172a5-a208bbcbc3fdeabf.elb.sa-east-1.amazonaws.com:38486 { session user-disabled state user-down } }
+modify ltm pool pool_elorouter_caixa_debito_38483_210 members modify { k8s-prd-eloroute-81a0bb6acd-c8196bcea30eb699.elb.sa-east-1.amazonaws.com:38483 { session user-disabled state user-down } }
+
+
+modify ltm pool pool_elorouter_caixa_debito_38483_220 membres modify { k8s-prd-eloroute-02795172a5-a208bbcbc3fdeabf.elb.sa-east-1.amazonaws.com:38487 { session user-disabled state user-down } }
+modify ltm pool pool_elorouter_caixa_debito_38483_220 members modify { k8s-prd-eloroute-81a0bb6acd-c8196bcea30eb699.elb.sa-east-1.amazonaws.com:38484 { session user-disabled state user-down } }
+
+
+#######################################################################################################################################################################
+
+
+CAIXA DEBITO RJ (L4)
+ 
+
+modify ltm pool pool_engress_caixa_debito_28486 members modify { 10.35.170.130:28483 { session user-disabled state user-down } }
+modify ltm pool pool_engress_caixa_debito_28486 members modify { 10.36.170.130:28486 { session user-disabled state user-down } }
+
+
+modify ltm pool pool_engress_caixa_debito_28636 members modify { 10.35.170.130:28633 { session user-disabled state user-down } }
+modify ltm pool pool_engress_caixa_debito_28636 members modify { 10.36.170.130:28636 { session user-disabled state user-down } }
+
+
+modify ltm pool pool_elorouter_caixa_debito_38486_210 members modify { 10.35.181.12:38486 { session user-disabled state user-down } }
+modify ltm pool pool_elorouter_caixa_debito_38486_210 members modify { k8s-prd-eloroute-02795172a5-a208bbcbc3fdeabf.elb.sa-east-1.amazonaws.com:38486 { session user-disabled state user-down } }
+modify ltm pool pool_elorouter_caixa_debito_38486_210 members modify { k8s-prd-eloroute-81a0bb6acd-c8196bcea30eb699.elb.sa-east-1.amazonaws.com:38483 { session user-disabled state user-down } }
+
+
+modify ltm pool pool_elorouter_caixa_debito_38486_220 members modify { 10.35.181.14:38486 { session user-disabled state user-down } }
+modify ltm pool pool_elorouter_caixa_debito_38486_220 members modify { k8s-prd-eloroute-02795172a5-a208bbcbc3fdeabf.elb.sa-east-1.amazonaws.com:38487 { session user-disabled state user-down } }
+modify ltm pool pool_elorouter_caixa_debito_38486_220 members modify { k8s-prd-eloroute-81a0bb6acd-c8196bcea30eb699.elb.sa-east-1.amazonaws.com:38484 { session user-disabled state user-down } }
+
+
+modify ltm pool pool_elorouter_caixa_debito_38636_210 members modify { 10.35.181.12:38636 { session user-disabled state user-down } } 
+modify ltm pool pool_elorouter_caixa_debito_38636_210 members modify { k8s-prd-eloroute-c497289c73-2054188186172f5a.elb.sa-east-1.amazonaws.com:38633 { session user-disabled state user-down } }
+modify ltm pool pool_elorouter_caixa_debito_38636_210 members modify { k8s-prd-eloroute-ce7b83cac0-73c5aa285f567af3.elb.sa-east-1.amazonaws.com:38636 { session user-disabled state user-down } }
+
+
+modify ltm pool pool_elorouter_caixa_debito_38636_220 members modify { 10.35.181.14:38636 { session user-disabled state user-down } }
+modify ltm pool pool_elorouter_caixa_debito_38636_220 members modify { k8s-prd-eloroute-c497289c73-2054188186172f5a.elb.sa-east-1.amazonaws.com:38634 { session user-disabled state user-down } }
+modify ltm pool pool_elorouter_caixa_debito_38636_220 members modify { k8s-prd-eloroute-ce7b83cac0-73c5aa285f567af3.elb.sa-east-1.amazonaws.com:38637 { session user-disabled state user-down } }
+
+ 
+
+#######################################################################################################################################################################
+ 
+
+HABILITAR COMUNICAÇÃO
+
+
+Caixa Debito SP (L4)
+
+modify ltm pool pool_engress_caixa_debito_28483 members modify { 10.35.170.130:28483 { session user-enabled state user-up } }
+modify ltm pool pool_engress_caixa_debito_28483 members modify { 10.36.170.130:28486 { session user-enabled state user-up } }
+
+
+modify ltm pool pool_engress_caixa_debito_28633 members modify { 10.35.170.130:28633 { session user-enabled state user-up } }
+modify ltm pool pool_engress_caixa_debito_28633 members modify { 10.36.170.130:28636 { session user-enabled state user-up } }
+
+
+modify ltm pool pool_elorouter_caixa_debito_38633_210 members modify { k8s-prd-eloroute-c497289c73-2054188186172f5a.elb.sa-east-1.amazonaws.com:38633 { session user-enabled state user-up } }
+modify ltm pool pool_elorouter_caixa_debito_38633_210 members modify { k8s-prd-eloroute-ce7b83cac0-73c5aa285f567af3.elb.sa-east-1.amazonaws.com:38636 { session user-enabled state user-up } }
+
+
+modify ltm pool pool_elorouter_caixa_debito_38633_220 members modify { k8s-prd-eloroute-c497289c73-2054188186172f5a.elb.sa-east-1.amazonaws.com:38634 { session user-enabled state user-up } }
+modify ltm pool pool_elorouter_caixa_debito_38633_220 members modify { k8s-prd-eloroute-ce7b83cac0-73c5aa285f567af3.elb.sa-east-1.amazonaws.com:38637 { session user-enabled state user-up } }
+ 
+
+modify ltm pool pool_elorouter_caixa_debito_38483_210 members modify { k8s-prd-eloroute-02795172a5-a208bbcbc3fdeabf.elb.sa-east-1.amazonaws.com:38486 { session user-enabled state user-up } }
+modify ltm pool pool_elorouter_caixa_debito_38483_210 members modify { k8s-prd-eloroute-81a0bb6acd-c8196bcea30eb699.elb.sa-east-1.amazonaws.com:38483 { session user-enabled state user-up } }
+
+
+modify ltm pool pool_elorouter_caixa_debito_38483_220 membres modify { k8s-prd-eloroute-02795172a5-a208bbcbc3fdeabf.elb.sa-east-1.amazonaws.com:38487 { session user-enabled state user-up } }
+modify ltm pool pool_elorouter_caixa_debito_38483_220 members modify { k8s-prd-eloroute-81a0bb6acd-c8196bcea30eb699.elb.sa-east-1.amazonaws.com:38484 { session user-enabled state user-up } }
+
+
+CAIXA DEBITO RJ (L4)
+ 
+modify ltm pool pool_engress_caixa_debito_28486 members modify { 10.35.170.130:28483 { session user-enabled state user-up } }
+modify ltm pool pool_engress_caixa_debito_28486 members modify { 10.36.170.130:28486 { session user-enabled state user-up } }
+
+
+modify ltm pool pool_engress_caixa_debito_28636 members modify { 10.35.170.130:28633 { session user-enabled state user-up } }
+modify ltm pool pool_engress_caixa_debito_28636 members modify { 10.36.170.130:28636 { session user-enabled state user-up } }
+
+
+modify ltm pool pool_elorouter_caixa_debito_38486_210 members modify { 10.35.181.12:38486 { session user-enabled state user-up } }
+modify ltm pool pool_elorouter_caixa_debito_38486_210 members modify { k8s-prd-eloroute-02795172a5-a208bbcbc3fdeabf.elb.sa-east-1.amazonaws.com:38486 { session user-enabled state user-up } }
+modify ltm pool pool_elorouter_caixa_debito_38486_210 members modify { k8s-prd-eloroute-81a0bb6acd-c8196bcea30eb699.elb.sa-east-1.amazonaws.com:38483 { session user-enabled state user-up } }
+
+
+modify ltm pool pool_elorouter_caixa_debito_38486_220 members modify { 10.35.181.14:38486 { session user-enabled state user-up } }
+modify ltm pool pool_elorouter_caixa_debito_38486_220 members modify { k8s-prd-eloroute-02795172a5-a208bbcbc3fdeabf.elb.sa-east-1.amazonaws.com:38487 { session user-enabled state user-up } }
+modify ltm pool pool_elorouter_caixa_debito_38486_220 members modify { k8s-prd-eloroute-81a0bb6acd-c8196bcea30eb699.elb.sa-east-1.amazonaws.com:38484 { session user-enabled state user-up } }
+
+
+modify ltm pool pool_elorouter_caixa_debito_38636_210 members modify { 10.35.181.12:38636 { session user-enabled state user-up } } 
+modify ltm pool pool_elorouter_caixa_debito_38636_210 members modify { k8s-prd-eloroute-c497289c73-2054188186172f5a.elb.sa-east-1.amazonaws.com:38633 { session user-enabled state user-up } }
+modify ltm pool pool_elorouter_caixa_debito_38636_210 members modify { k8s-prd-eloroute-ce7b83cac0-73c5aa285f567af3.elb.sa-east-1.amazonaws.com:38636 { session user-enabled state user-up } }
+
+
+modify ltm pool pool_elorouter_caixa_debito_38636_220 members modify { 10.35.181.14:38636 { session user-enabled state user-up } } 
+modify ltm pool pool_elorouter_caixa_debito_38636_220 members modify { k8s-prd-eloroute-c497289c73-2054188186172f5a.elb.sa-east-1.amazonaws.com:38634 { session user-enabled state user-up } }
+modify ltm pool pool_elorouter_caixa_debito_38636_220 members modify { k8s-prd-eloroute-ce7b83cac0-73c5aa285f567af3.elb.sa-east-1.amazonaws.com:38637 { session user-enabled state user-up } }
+
+ 
+
+=======================================================================================================================================================================
+
+
+
+
+DELETES  PARA COMUNICAÇÕES CAIXA SP L4
+
+delete sys connection cs-server-port 28633
+delete sys connection ss-server-port 28633
+delete sys connection ss-server-port 28636
+
+
+delete sys connection cs-server-port 28483
+delete sys connection ss-server-port 28483
+delete sys connection ss-server-port 28486
+
+
+delete sys connection cs-server-port 38483
+delete sys connection ss-server-port 38483
+delete sys connection ss-server-port 38486
+
+
+delete sys connection cs-server-port 38483
+delete sys connection ss-server-port 38484
+delete sys connection ss-server-port 38487
+
+
+delete sys connection cs-server-port 38633
+delete sys connection ss-server-port 38633
+delete sys connection ss-server-port 38636
+
+
+delete sys connection cs-server-port 38633
+delete sys connection ss-server-port 38634
+delete sys connection ss-server-port 38637
+
+
+DELETES  PARA COMUNICAÇÕES CAIXA RJ L4
+
+delete sys connection cs-server-port 28636
+delete sys connection ss-server-port 28633
+delete sys connection ss-server-port 28636
+
+
+delete sys connection cs-server-port 28486
+delete sys connection ss-server-port 28483
+delete sys connection ss-server-port 28486
+
+
+delete sys connection cs-server-port 38486
+delete sys connection ss-server-port 38483
+delete sys connection ss-server-port 38486
+
+
+delete sys connection cs-server-port 38486
+delete sys connection ss-server-port 38484
+delete sys connection ss-server-port 38487
+
+
+delete sys connection cs-server-port 38636
+delete sys connection ss-server-port 38633
+delete sys connection ss-server-port 38636
+
+
+delete sys connection cs-server-port 38636
+delete sys connection ss-server-port 38634
+delete sys connection ss-server-port 38637
+

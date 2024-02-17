@@ -1,0 +1,190 @@
+Reciclagem - L7 Credenciadores - SP
+********************************************
+
+ACQIO
+delete sys connection cs-server-port 8158
+delete sys connection cs-server-port 8258
+
+ADIQ
+delete sys connection cs-server-port 8120
+delete sys connection cs-server-port 8220
+
+ADYEN BRASIL
+delete sys connection cs-server-port 8184
+delete sys connection cs-server-port 8284
+
+ADYEN
+delete sys connection cs-server-port 8122
+delete sys connection cs-server-port 8222
+
+AGILLI
+delete sys connection cs-server-port 8196
+delete sys connection cs-server-port 8296
+
+AMADEUS
+delete sys connection cs-server-port 8116
+delete sys connection cs-server-port 8216
+
+BANCO RENDIMENTO
+delete sys connection cs-server-port 8420
+delete sys connection cs-server-port 8520
+
+BANESE
+delete sys connection cs-server-port 8188
+delete sys connection cs-server-port 8288
+
+BOLT
+delete sys connection cs-server-port 8154
+delete sys connection cs-server-port 8254
+
+CABAL
+delete sys connection cs-server-port 8126
+delete sys connection cs-server-port 8226
+
+CIELO
+delete sys connection cs-server-port 8124
+delete sys connection cs-server-port 8224
+
+CLOUDWALK
+delete sys connection cs-server-port 8178
+delete sys connection cs-server-port 8278
+
+COMPRA_DINNERS
+delete sys connection cs-server-port 8172
+delete sys connection cs-server-port 8272
+
+CONDUCTOR_CACTVS
+delete sys connection cs-server-port 18198
+delete sys connection cs-server-port 18298
+
+CONDUCTOR_CREFISA
+delete sys connection cs-server-port 8104
+delete sys connection cs-server-port 8204
+
+CREFISA_DXC
+delete sys connection cs-server-port 8414
+delete sys connection cs-server-port 8514
+
+CREFISA
+delete sys connection cs-server-port 8136
+delete sys connection cs-server-port 8236
+
+CSU
+delete sys connection cs-server-port 8140
+delete sys connection cs-server-port 8240
+
+CYBERSOURCE
+delete sys connection cs-server-port 8408
+delete sys connection cs-server-port 8508
+
+DISCOVER
+delete sys connection cs-server-port 8000
+delete sys connection cs-server-port 8005
+
+DOCK
+delete sys connection cs-server-port 8406
+delete sys connection cs-server-port 8506
+
+FIRSTDATA_CRED
+delete sys connection cs-server-port 8152
+delete sys connection cs-server-port 8252
+
+FIRSTDATA_REDE
+delete sys connection cs-server-port 8132
+delete sys connection cs-server-port 8232
+
+FIRSTDATA
+delete sys connection cs-server-port 8108
+delete sys connection cs-server-port 8208
+
+FIRSTDATA_SOROCRED
+delete sys connection cs-server-port 8186
+delete sys connection cs-server-port 8286
+
+FIS_PAGAI
+delete sys connection cs-server-port 8182
+delete sys connection cs-server-port 8282
+
+FIS_SOROCRED
+delete sys connection cs-server-port 8190
+delete sys connection cs-server-port 8290
+
+GETNET
+delete sys connection cs-server-port 8100
+delete sys connection cs-server-port 8200
+
+GLOBALPAYMENTS
+delete sys connection cs-server-port 8110
+delete sys connection cs-server-port 8210
+
+GRANITO
+delete sys connection cs-server-port 8148
+delete sys connection cs-server-port 8248
+
+HUBTECBAN
+delete sys connection cs-server-port 8194
+delete sys connection cs-server-port 8294
+
+LISTO
+delete sys connection cs-server-port 8142
+delete sys connection cs-server-port 8242
+
+NEW_ADIQ
+delete sys connection cs-server-port 8410
+delete sys connection cs-server-port 8510
+
+PAGSEGURO
+delete sys connection cs-server-port 8114
+delete sys connection cs-server-port 8214
+
+PICPAY
+delete sys connection cs-server-port 8412
+delete sys connection cs-server-port 8512
+
+REDE
+delete sys connection cs-server-port 8102
+delete sys connection cs-server-port 8202
+
+REDEFLEX
+delete sys connection cs-server-port 8402
+delete sys connection cs-server-port 8502
+
+SABRE
+delete sys connection cs-server-port 8118
+delete sys connection cs-server-port 8218
+
+SAFRAPAY
+delete sys connection cs-server-port 8112
+delete sys connection cs-server-port 8212
+
+SICREDI
+delete sys connection cs-server-port 8128
+delete sys connection cs-server-port 8228
+
+SMARTBANK
+delete sys connection cs-server-port 8156
+delete sys connection cs-server-port 8256
+
+STONE
+delete sys connection cs-server-port 8106
+delete sys connection cs-server-port 8206
+
+STRIPE
+delete sys connection cs-server-port 8162
+delete sys connection cs-server-port 8262
+
+SUMUP
+delete sys connection cs-server-port 8174
+delete sys connection cs-server-port 8274
+
+TECBAN
+delete sys connection cs-server-port 8134
+delete sys connection cs-server-port 8234
+
+TRAVELPORT
+delete sys connection cs-server-port 8130
+delete sys connection cs-server-port 8230
+
+VERO
+delete sys connection cs-server-port 8138
+delete sys connection cs-server-port 8238

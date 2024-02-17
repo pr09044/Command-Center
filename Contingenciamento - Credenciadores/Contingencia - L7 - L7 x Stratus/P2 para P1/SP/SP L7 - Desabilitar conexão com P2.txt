@@ -1,0 +1,158 @@
+=============================================================================================================
+###################################### SP L7 - Desabilitar conexão com P2 ###################################
+
+modify ltm pool pool_ingress_acqio_8158 members modify { STRATUS_ME_10:8158 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_acqio_8258 members modify { STRATUS_ME_20:8258 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_adiq_8120 members modify { STRATUS_ME_10:8120 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_adiq_8220 members modify { STRATUS_ME_20:8220 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_adyen_8122 members modify { STRATUS_ME_10:8122 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_adyen_8222 members modify { STRATUS_ME_20:8222 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_adyen_brasil_8184 members modify { STRATUS_ME_10:8184 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_adyen_brasil_8284 members modify { STRATUS_ME_20:8284 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_agilli_8196 members modify { STRATUS_ME_10:8196 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_agilli_8296 members modify { STRATUS_ME_20:8296 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_amadeus_8116 members modify { STRATUS_ME_10:8116 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_amadeus_8216 members modify { STRATUS_ME_20:8216 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_banco_rendimento_8420 members modify { STRATUS_ME_10:8420 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_banco_rendimento_8520 members modify { STRATUS_ME_20:8520 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_banese_8188 members modify { STRATUS_ME_10:8188 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_banese_8288 members modify { STRATUS_ME_20:8288 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_bolt_8154 members modify { STRATUS_ME_10:8154 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_bolt_8254 members modify { STRATUS_ME_20:8254 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_cabal_8126 members modify { STRATUS_ME_10:8126 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_cabal_8226 members modify { STRATUS_ME_20:8226 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_cielo_8124 members modify { STRATUS_ME_10:8124 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_cielo_8224 members modify { STRATUS_ME_20:8224 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_cloudwalk_8178 members modify { STRATUS_ME_10:8178 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_cloudwalk_8278 members modify { STRATUS_ME_20:8278 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_compra_dinners_8172 members modify { STRATUS_ME_10:8172 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_compra_dinners_8272 members modify { STRATUS_ME_20:8272 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_conductor_cactvs_8198 members modify { STRATUS_ME_10:8198 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_conductor_cactvs_8298 members modify { STRATUS_ME_20:8298 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_conductor_crefisa_8104 members modify { STRATUS_ME_10:8104 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_conductor_crefisa_8204 members modify { STRATUS_ME_20:8204 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_conductor_vox_8192 members modify { STRATUS_ME_10:8192 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_conductor_vox_8292 members modify { STRATUS_ME_20:8292 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_crefisa_8136 members modify { STRATUS_ME_10:8136 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_crefisa_8236 members modify { STRATUS_ME_20:8236 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_crefisa_dxc_8414 members modify { STRATUS_ME_10:8414 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_crefisa_dxc_8514 members modify { STRATUS_ME_20:8514 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_csu_8140 members modify { STRATUS_ME_10:8140 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_csu_8240 members modify { STRATUS_ME_20:8240 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_cybersource_8408 members modify { STRATUS_ME_10:8408 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_cybersource_8508 members modify { STRATUS_ME_20:8508 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_discover_8000 members modify { STRATUS_ME_20:8304 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_discover_8000 members modify { STRATUS_ME_20:8300 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_discover_8000 members modify { STRATUS_ME_20:8308 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_discover_8000 members modify { STRATUS_ME_20:8302 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_discover_8000 members modify { STRATUS_ME_20:8306 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_discover_8005 members modify { STRATUS_ME_20:8312 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_discover_8005 members modify { STRATUS_ME_20:8318 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_discover_8005 members modify { STRATUS_ME_20:8316 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_discover_8005 members modify { STRATUS_ME_20:8310 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_discover_8005 members modify { STRATUS_ME_20:8314 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_dock_8406 members modify { STRATUS_ME_10:8406 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_dock_8506 members modify { STRATUS_ME_20:8506 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_firstdata_8108 members modify { STRATUS_ME_10:8108 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_firstdata_8208 members modify { STRATUS_ME_20:8208 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_firstdata_cred_8152 members modify { STRATUS_ME_10:8152 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_firstdata_cred_8252 members modify { STRATUS_ME_20:8252 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_firstdata_rede_8132 members modify { STRATUS_ME_10:8132 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_firstdata_rede_8232 members modify { STRATUS_ME_20:8232 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_firstdata_sorocred_8186 members modify { STRATUS_ME_10:8186 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_firstdata_sorocred_8286 members modify { STRATUS_ME_20:8286 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_fis_pagai_8182 members modify { STRATUS_ME_10:8182 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_fis_pagai_8282 members modify { STRATUS_ME_20:8282 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_fis_sorocred_8190 members modify { STRATUS_ME_10:8190 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_fis_sorocred_8290 members modify { STRATUS_ME_20:8290 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_getnet_8100 members modify { STRATUS_ME_10:8100 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_getnet_8200 members modify { STRATUS_ME_20:8200 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_globalpayments_8110 members modify { STRATUS_ME_10:8110 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_globalpayments_8210 members modify { STRATUS_ME_20:8210 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_granito_8148 members modify { STRATUS_ME_10:8148 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_granito_8248 members modify { STRATUS_ME_20:8248 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_hubtecban_8194 members modify { STRATUS_ME_10:8194 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_hubtecban_8294 members modify { STRATUS_ME_20:8294 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_listo_8142 members modify { STRATUS_ME_10:8142 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_listo_8242 members modify { STRATUS_ME_20:8242 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_new_adiq_8410 members modify { STRATUS_ME_10:8410 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_new_adiq_8510 members modify { STRATUS_ME_20:8510 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_p2p_8150 members modify { STRATUS_ME_10:8150 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_p2p_8250 members modify { STRATUS_ME_20:8250 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_pagseguro_8114 members modify { STRATUS_ME_10:8114 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_pagseguro_8214 members modify { STRATUS_ME_20:8214 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_picpay_8412 members modify { STRATUS_ME_10:8412 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_picpay_8512 members modify { STRATUS_ME_20:8512 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_rede_8102 members modify { STRATUS_ME_10:8102 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_rede_8202 members modify { STRATUS_ME_20:8202 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_redeflex_8402 members modify { STRATUS_ME_10:8402 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_redeflex_8502 members modify { STRATUS_ME_20:8502 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_sabre_8118 members modify { STRATUS_ME_10:8118 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_sabre_8218 members modify { STRATUS_ME_20:8218 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_safrapay_8112 members modify { STRATUS_ME_10:8112 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_safrapay_8212 members modify { STRATUS_ME_20:8212 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_sicredi_8128 members modify { STRATUS_ME_10:8128 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_sicredi_8228 members modify { STRATUS_ME_20:8228 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_smartbank_8156 members modify { STRATUS_ME_10:8156 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_smartbank_8256 members modify { STRATUS_ME_20:8256 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_stone_8106 members modify { STRATUS_ME_10:8106 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_stone_8206 members modify { STRATUS_ME_20:8206 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_stripe_8162 members modify { STRATUS_ME_10:8162 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_stripe_8262 members modify { STRATUS_ME_20:8262 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_sumup_8174 members modify { STRATUS_ME_10:8174 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_sumup_8274 members modify { STRATUS_ME_20:8274 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_tecban_8134 members modify { STRATUS_ME_10:8134 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_tecban_8234 members modify { STRATUS_ME_20:8234 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_travelport_8130 members modify { STRATUS_ME_10:8130 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_travelport_8230 members modify { STRATUS_ME_20:8230 { session user-disabled state user-down } }
+
+modify ltm pool pool_ingress_vero_8138 members modify { STRATUS_ME_10:8138 { session user-disabled state user-down } }
+modify ltm pool pool_ingress_vero_8238 members modify { STRATUS_ME_20:8238 { session user-disabled state user-down } }

@@ -1,0 +1,16 @@
+delete sys connection ss-server-port 31297
+delete sys connection cs-server-port 31297
+delete sys connection ss-client-port 31297
+delete sys connection cs-client-port 31297
+delete sys connection ss-server-port 31299
+delete sys connection cs-server-port 31299
+delete sys connection ss-client-port 31299
+delete sys connection cs-client-port 31299
+delete sys connection ss-server-port 31298
+delete sys connection cs-server-port 31298
+delete sys connection ss-client-port 31298
+delete sys connection cs-client-port 31298
+delete sys connection ss-server-port 31300
+delete sys connection cs-server-port 31300
+delete sys connection ss-client-port 31300
+delete sys connection cs-client-port 31300

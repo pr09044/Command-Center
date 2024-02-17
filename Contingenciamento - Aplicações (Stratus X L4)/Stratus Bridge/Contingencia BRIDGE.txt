@@ -1,0 +1,193 @@
+
+   _____   _______   _____               _______   _    _    _____ 
+  / ____| |__   __| |  __ \      /\     |__   __| | |  | |  / ____|
+ | (___      | |    | |__) |    /  \       | |    | |  | | | (___  
+  \___ \     | |    |  _  /    / /\ \      | |    | |  | |  \___ \ 
+  ____) |    | |    | | \ \   / ____ \     | |    | |__| |  ____) |
+ |_____/  _____|   _____ \______    \_____ |_______\____/  |_____/ 
+ |  _ \  |  __ \  |_   _| |  __ \   / ____| |  ____|               
+ | |_) | | |__) |   | |   | |  | | | |  __  | |__                  
+ |  _ <  |  _  /    | |   | |  | | | | |_ | |  __|                 
+ | |_) | | | \ \   _| |_  | |__| | | |__| | | |____                
+ |____/  |_|  \_\ |_____| |_____/   \_____| |______|               
+
+
+_____________________________________________________________________________________________________________________________________________________
+                                     _                                  __    _____         _ 
+     /\                             | |                                / /   |  __ \       | |
+    /  \     _ __     ___    _ __   | |_    __ _   _ __     _ __      / /    | |__) |      | |
+   / /\ \   | '_ \   / _ \  | '_ \  | __|  / _` | | '__|   | '_ \    / /     |  _  /   _   | |
+  / ____ \  | |_) | | (_) | | | | | | |_  | (_| | | |      | |_) |  / /      | | \ \  | |__| |
+ /_/    \_\ | .__/   \___/  |_| |_|  \__|  \__,_| |_|      | .__/  /_/       |_|  \_\  \____/ 
+            | |                                            | |                                
+            |_|                                            |_|                                
+___________________________________________________________________________________________________________________
+
+modify ltm pool pool_stratusbridge_java_standalone_7020 members modify { 10.34.2.101:7020 { session user-enabled state user-up } }
+modify ltm pool pool_stratusbridge_java_standalone_7020 members modify { 10.34.2.107:7020 { session user-enabled state user-up } }
+modify ltm pool pool_stratusbridge_java_standalone_7020 members modify { 10.32.9.109:7020 { session user-disabled state user-down } }
+modify ltm pool pool_stratusbridge_java_standalone_7020 members modify { 10.32.9.110:7020 { session user-disabled state user-down } }
+delete sys connection cs-server-port 7020
+delete sys connection ss-server-port 7020
+delete sys connection cs-client-port 7020
+
+
+modify ltm pool pool_stratusbridge_java_standalone_7021 members modify { 10.34.2.101:7021 { session user-enabled state user-up } }
+modify ltm pool pool_stratusbridge_java_standalone_7021 members modify { 10.34.2.107:7021 { session user-enabled state user-up } }
+modify ltm pool pool_stratusbridge_java_standalone_7021 members modify { 10.32.9.109:7021 { session user-disabled state user-down } }
+modify ltm pool pool_stratusbridge_java_standalone_7021 members modify { 10.32.9.110:7021 { session user-disabled state user-down } }
+delete sys connection cs-server-port 7021
+delete sys connection ss-server-port 7021
+delete sys connection cs-client-port 7021
+
+
+modify ltm pool pool_stratusbridge_java_standalone_7022 members modify { 10.34.2.101:7022 { session user-enabled state user-up } }
+modify ltm pool pool_stratusbridge_java_standalone_7022 members modify { 10.34.2.107:7022 { session user-enabled state user-up } }
+modify ltm pool pool_stratusbridge_java_standalone_7022 members modify { 10.32.9.109:7022 { session user-disabled state user-down } }
+modify ltm pool pool_stratusbridge_java_standalone_7022 members modify { 10.32.9.110:7022 { session user-disabled state user-down } }
+delete sys connection cs-server-port 7022
+delete sys connection ss-server-port 7022
+delete sys connection cs-client-port 7022
+
+
+modify ltm pool pool_stratusbridge_java_standalone_7023 members modify { 10.34.2.101:7023 { session user-enabled state user-up } }
+modify ltm pool pool_stratusbridge_java_standalone_7023 members modify { 10.34.2.107:7023 { session user-enabled state user-up } }
+modify ltm pool pool_stratusbridge_java_standalone_7023 members modify { 10.32.9.109:7023 { session user-disabled state user-down } }
+modify ltm pool pool_stratusbridge_java_standalone_7023 members modify { 10.32.9.110:7023 { session user-disabled state user-down } }
+delete sys connection cs-server-port 7023
+delete sys connection ss-server-port 7023
+delete sys connection cs-client-port 7023
+
+
+modify ltm pool pool_stratusbridge_java_standalone_7024 members modify { 10.34.2.107:7024 { session user-enabled state user-up } }
+modify ltm pool pool_stratusbridge_java_standalone_7024 members modify { 10.34.2.101:7024 { session user-enabled state user-up } }
+modify ltm pool pool_stratusbridge_java_standalone_7024 members modify { 10.32.9.109:7024 { session user-disabled state user-down } }
+modify ltm pool pool_stratusbridge_java_standalone_7024 members modify { 10.32.9.110:7024 { session user-disabled state user-down } }
+delete sys connection cs-server-port 7024
+delete sys connection ss-server-port 7024
+delete sys connection cs-client-port 7024
+
+
+modify ltm pool pool_stratusbridge_java_standalone_7025 members modify { 10.34.2.107:7025 { session user-enabled state user-up } }
+modify ltm pool pool_stratusbridge_java_standalone_7025 members modify { 10.34.2.101:7025 { session user-enabled state user-up } }
+modify ltm pool pool_stratusbridge_java_standalone_7025 members modify { 10.32.9.109:7025 { session user-disabled state user-down } }
+modify ltm pool pool_stratusbridge_java_standalone_7025 members modify { 10.32.9.110:7025 { session user-disabled state user-down } }
+delete sys connection cs-server-port 7025
+delete sys connection ss-server-port 7025
+delete sys connection cs-client-port 7025
+
+
+modify ltm pool pool_stratusbridge_java_standalone_7026 members modify { 10.34.2.107:7026 { session user-enabled state user-up } }
+modify ltm pool pool_stratusbridge_java_standalone_7026 members modify { 10.34.2.101:7026 { session user-enabled state user-up } }
+modify ltm pool pool_stratusbridge_java_standalone_7026 members modify { 10.32.9.109:7026 { session user-disabled state user-down } }
+modify ltm pool pool_stratusbridge_java_standalone_7026 members modify { 10.32.9.110:7026 { session user-disabled state user-down } }
+delete sys connection cs-server-port 7026
+delete sys connection ss-server-port 7026
+delete sys connection cs-client-port 7026
+
+
+modify ltm pool pool_stratusbridge_java_standalone_7027 members modify { 10.34.2.107:7027 { session user-enabled state user-up } }
+modify ltm pool pool_stratusbridge_java_standalone_7027 members modify { 10.34.2.101:7027 { session user-enabled state user-up } }
+modify ltm pool pool_stratusbridge_java_standalone_7027 members modify { 10.32.9.109:7027 { session user-disabled state user-down } }
+modify ltm pool pool_stratusbridge_java_standalone_7027 members modify { 10.32.9.110:7027 { session user-disabled state user-down } }
+delete sys connection cs-server-port 7027
+delete sys connection ss-server-port 7027
+delete sys connection cs-client-port 7027
+
+_____________________________________________________________________________________________________________________________________________________
+
+                                     _                                  __     _____   _____  
+     /\                             | |                                / /    / ____| |  __ \ 
+    /  \     _ __     ___    _ __   | |_    __ _   _ __     _ __      / /    | (___   | |__) |
+   / /\ \   | '_ \   / _ \  | '_ \  | __|  / _` | | '__|   | '_ \    / /      \___ \  |  ___/ 
+  / ____ \  | |_) | | (_) | | | | | | |_  | (_| | | |      | |_) |  / /       ____) | | |     
+ /_/    \_\ | .__/   \___/  |_| |_|  \__|  \__,_| |_|      | .__/  /_/       |_____/  |_|     
+            | |                                            | |                                
+            |_|                                            |_|                                
+___________________________________________________________________________________________________________________
+
+modify ltm pool pool_stratusbridge_java_standalone_7020 members modify { 10.32.9.109:7020 { session user-enabled state user-up } }
+modify ltm pool pool_stratusbridge_java_standalone_7020 members modify { 10.32.9.110:7020 { session user-enabled state user-up } }
+modify ltm pool pool_stratusbridge_java_standalone_7020 members modify { 10.34.2.101:7020 { session user-disabled state user-down } }
+modify ltm pool pool_stratusbridge_java_standalone_7020 members modify { 10.34.2.107:7020 { session user-disabled state user-down } }
+delete sys connection cs-server-port 7020
+delete sys connection ss-server-port 7020
+delete sys connection cs-client-port 7020
+delete sys connection ss-client-port 7020
+
+
+modify ltm pool pool_stratusbridge_java_standalone_7021 members modify { 10.32.9.109:7021 { session user-enabled state user-up } }
+modify ltm pool pool_stratusbridge_java_standalone_7021 members modify { 10.32.9.110:7021 { session user-enabled state user-up } }
+modify ltm pool pool_stratusbridge_java_standalone_7021 members modify { 10.34.2.101:7021 { session user-disabled state user-down } }
+modify ltm pool pool_stratusbridge_java_standalone_7021 members modify { 10.34.2.107:7021 { session user-disabled state user-down } }
+delete sys connection cs-server-port 7021
+delete sys connection ss-server-port 7021
+delete sys connection cs-client-port 7021
+delete sys connection ss-client-port 7021
+
+
+modify ltm pool pool_stratusbridge_java_standalone_7022 members modify { 10.32.9.109:7022 { session user-enabled state user-up } }
+modify ltm pool pool_stratusbridge_java_standalone_7022 members modify { 10.32.9.110:7022 { session user-enabled state user-up } }
+modify ltm pool pool_stratusbridge_java_standalone_7022 members modify { 10.34.2.101:7022 { session user-disabled state user-down } }
+modify ltm pool pool_stratusbridge_java_standalone_7022 members modify { 10.34.2.107:7022 { session user-disabled state user-down } }
+delete sys connection cs-server-port 7022
+delete sys connection ss-server-port 7022
+delete sys connection cs-client-port 7022
+delete sys connection ss-client-port 7022
+
+
+modify ltm pool pool_stratusbridge_java_standalone_7023 members modify { 10.32.9.109:7023 { session user-enabled state user-up } }
+modify ltm pool pool_stratusbridge_java_standalone_7023 members modify { 10.32.9.110:7023 { session user-enabled state user-up } }
+modify ltm pool pool_stratusbridge_java_standalone_7023 members modify { 10.34.2.101:7023 { session user-disabled state user-down } }
+modify ltm pool pool_stratusbridge_java_standalone_7023 members modify { 10.34.2.107:7023 { session user-disabled state user-down } }
+delete sys connection cs-server-port 7023
+delete sys connection ss-server-port 7023
+delete sys connection cs-client-port 7023
+
+
+modify ltm pool pool_stratusbridge_java_standalone_7024 members modify { 10.32.9.110:7024 { session user-enabled state user-up } }
+modify ltm pool pool_stratusbridge_java_standalone_7024 members modify { 10.32.9.109:7024 { session user-enabled state user-up } }
+modify ltm pool pool_stratusbridge_java_standalone_7024 members modify { 10.34.2.101:7024 { session user-disabled state user-down } }
+modify ltm pool pool_stratusbridge_java_standalone_7024 members modify { 10.34.2.107:7024 { session user-disabled state user-down } }
+delete sys connection cs-server-port 7024
+delete sys connection ss-server-port 7024
+delete sys connection cs-client-port 7024
+delete sys connection ss-client-port 7024
+
+
+modify ltm pool pool_stratusbridge_java_standalone_7025 members modify { 10.32.9.110:7025 { session user-enabled state user-up } }
+modify ltm pool pool_stratusbridge_java_standalone_7025 members modify { 10.32.9.109:7025 { session user-enabled state user-up } }
+modify ltm pool pool_stratusbridge_java_standalone_7025 members modify { 10.34.2.101:7025 { session user-disabled state user-down } }
+modify ltm pool pool_stratusbridge_java_standalone_7025 members modify { 10.34.2.107:7025 { session user-disabled state user-down } }
+delete sys connection cs-server-port 7025
+delete sys connection ss-server-port 7025
+delete sys connection cs-client-port 7025
+delete sys connection ss-client-port 7025
+
+
+modify ltm pool pool_stratusbridge_java_standalone_7026 members modify { 10.32.9.110:7026 { session user-enabled state user-up } }
+modify ltm pool pool_stratusbridge_java_standalone_7026 members modify { 10.32.9.109:7026 { session user-enabled state user-up } }
+modify ltm pool pool_stratusbridge_java_standalone_7026 members modify { 10.34.2.101:7026 { session user-disabled state user-down } }
+modify ltm pool pool_stratusbridge_java_standalone_7026 members modify { 10.34.2.107:7026 { session user-disabled state user-down } }
+delete sys connection cs-server-port 7026
+delete sys connection ss-server-port 7026
+delete sys connection cs-client-port 7026
+delete sys connection ss-client-port 7026
+
+modify ltm pool pool_stratusbridge_java_standalone_7027 members modify { 10.32.9.110:7027 { session user-enabled state user-up } }
+modify ltm pool pool_stratusbridge_java_standalone_7027 members modify { 10.32.9.109:7027 { session user-enabled state user-up } }
+modify ltm pool pool_stratusbridge_java_standalone_7027 members modify { 10.34.2.101:7027 { session user-disabled state user-down } }
+modify ltm pool pool_stratusbridge_java_standalone_7027 members modify { 10.34.2.107:7027 { session user-disabled state user-down } }
+delete sys connection cs-server-port 7027
+delete sys connection ss-server-port 7027
+delete sys connection cs-client-port 7027
+delete sys connection ss-client-port 7027
+
+Validação do fluxo as conexões / sessões:
+
+show sys connection 
+
+show sys connection ss-server-addr 10.32.9.110
+show sys connection ss-server-addr 10.32.9.109
+show sys connection ss-server-addr 10.34.2.101
+show sys connection ss-server-addr 10.34.2.107
