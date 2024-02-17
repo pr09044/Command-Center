@@ -1,0 +1,205 @@
+==========================================================================================
+###################### RJ L7 - Elo Router - RJ para SP - P2 para P1 ######################
+
+modify ltm pool pool_ingress_acqio_8159 members modify { k8s-prd-eloroute-6f27e9879b-7805616a0c0b8387.elb.sa-east-1.amazonaws.com:8159 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_acqio_8259 members modify { k8s-prd-eloroute-6f27e9879b-7805616a0c0b8387.elb.sa-east-1.amazonaws.com:8259 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_acqio_8159 members modify { STRATUS_ME_10:8159 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_acqio_8259 members modify { STRATUS_ME_20:8259 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_acqio_8159 members modify { STRATUS_MC_10:8159 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_acqio_8259 members modify { STRATUS_MC_20:8259 { session user-enabled state user-up  } }
+
+modify ltm pool pool_ingress_adiq_8121 members modify { k8s-prd-eloroute-2f305d1c68-562c336c0947cd89.elb.sa-east-1.amazonaws.com:8121 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_adiq_8221 members modify { k8s-prd-eloroute-2f305d1c68-562c336c0947cd89.elb.sa-east-1.amazonaws.com:8221 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_adiq_8121 members modify { STRATUS_ME_10:8121 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_adiq_8221 members modify { STRATUS_ME_20:8221 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_adiq_8121 members modify { STRATUS_MC_10:8121 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_adiq_8221 members modify { STRATUS_MC_20:8221 { session user-enabled state user-up  } }
+
+modify ltm pool pool_ingress_adyen_8123 members modify { k8s-prd-eloroute-2f305d1c68-562c336c0947cd89.elb.sa-east-1.amazonaws.com:8123 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_adyen_8223 members modify { k8s-prd-eloroute-2f305d1c68-562c336c0947cd89.elb.sa-east-1.amazonaws.com:8223 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_adyen_8123 members modify { STRATUS_ME_10:8123 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_adyen_8223 members modify { STRATUS_ME_20:8223 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_adyen_8123 members modify { STRATUS_MC_10:8123 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_adyen_8223 members modify { STRATUS_MC_20:8223 { session user-enabled state user-up  } }
+
+modify ltm pool pool_ingress_adyen_brasil_8185 members modify { k8s-prd-eloroute-2f305d1c68-562c336c0947cd89.elb.sa-east-1.amazonaws.com:8185 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_adyen_brasil_8285 members modify { k8s-prd-eloroute-2f305d1c68-562c336c0947cd89.elb.sa-east-1.amazonaws.com:8285 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_adyen_brasil_8185 members modify { STRATUS_ME_10:8185 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_adyen_brasil_8285 members modify { STRATUS_ME_20:8285 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_adyen_brasil_8185 members modify { STRATUS_MC_10:8185 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_adyen_brasil_8285 members modify { STRATUS_MC_20:8285 { session user-enabled state user-up  } }
+
+modify ltm pool pool_ingress_agilli_8197 members modify { k8s-prd-eloroute-6f27e9879b-7805616a0c0b8387.elb.sa-east-1.amazonaws.com:8197 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_agilli_8297 members modify { k8s-prd-eloroute-6f27e9879b-7805616a0c0b8387.elb.sa-east-1.amazonaws.com:8297 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_agilli_8197 members modify { STRATUS_ME_10:8197 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_agilli_8297 members modify { STRATUS_ME_20:8297 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_agilli_8197 members modify { STRATUS_MC_10:8197 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_agilli_8297 members modify { STRATUS_MC_20:8297 { session user-enabled state user-up  } }
+
+modify ltm pool pool_ingress_amadeus_8117 members modify { k8s-prd-eloroute-6f27e9879b-7805616a0c0b8387.elb.sa-east-1.amazonaws.com:28117 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_amadeus_8217 members modify { k8s-prd-eloroute-6f27e9879b-7805616a0c0b8387.elb.sa-east-1.amazonaws.com:28217 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_amadeus_8117 members modify { STRATUS_ME_10:8117 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_amadeus_8217 members modify { STRATUS_ME_20:8217 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_amadeus_8117 members modify { STRATUS_MC_10:8117 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_amadeus_8217 members modify { STRATUS_MC_20:8217 { session user-enabled state user-up  } }
+
+modify ltm pool pool_ingress_bolt_8155 members modify { k8s-prd-eloroute-6f27e9879b-7805616a0c0b8387.elb.sa-east-1.amazonaws.com:8155 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_bolt_8255 members modify { k8s-prd-eloroute-6f27e9879b-7805616a0c0b8387.elb.sa-east-1.amazonaws.com:8255 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_bolt_8155 members modify { STRATUS_ME_10:8155 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_bolt_8255 members modify { STRATUS_ME_20:8255 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_bolt_8155 members modify { STRATUS_MC_10:8155 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_bolt_8255 members modify { STRATUS_MC_20:8255 { session user-enabled state user-up  } }
+
+modify ltm pool pool_ingress_cabal_8127 members modify { k8s-prd-eloroute-6f27e9879b-7805616a0c0b8387.elb.sa-east-1.amazonaws.com:8127 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_cabal_8227 members modify { k8s-prd-eloroute-6f27e9879b-7805616a0c0b8387.elb.sa-east-1.amazonaws.com:8227 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_cabal_8127	members modify { STRATUS_ME_10:8127 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_cabal_8227	members modify { STRATUS_ME_20:8227 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_cabal_8127	members modify { STRATUS_MC_10:8127 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_cabal_8227	members modify { STRATUS_MC_20:8227 { session user-enabled state user-up  } }
+
+modify ltm pool pool_ingress_cloudwalk_8179 members modify { k8s-prd-eloroute-4ab1c36563-de57d7f5c5b14615.elb.sa-east-1.amazonaws.com:8179 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_cloudwalk_8279 members modify { k8s-prd-eloroute-4ab1c36563-de57d7f5c5b14615.elb.sa-east-1.amazonaws.com:8279 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_cloudwalk_8179 members modify { STRATUS_ME_10:8179 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_cloudwalk_8279 members modify { STRATUS_ME_20:8279 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_cloudwalk_8179 members modify { STRATUS_MC_10:8179 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_cloudwalk_8279 members modify { STRATUS_MC_20:8279 { session user-enabled state user-up  } }
+
+modify ltm pool pool_ingress_csu_8141 members modify { k8s-prd-eloroute-36e3af3044-6d24aa49bbd640dd.elb.sa-east-1.amazonaws.com:8141 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_csu_8241 members modify { k8s-prd-eloroute-36e3af3044-6d24aa49bbd640dd.elb.sa-east-1.amazonaws.com:8241 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_csu_8141 members modify { STRATUS_ME_10:8141 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_csu_8241 members modify { STRATUS_ME_20:8241 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_csu_8141 members modify { STRATUS_MC_10:8141 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_csu_8241 members modify { STRATUS_MC_20:8241 { session user-enabled state user-up  } }
+
+modify ltm pool pool_ingress_firstdata_8109 members modify { k8s-prd-eloroute-4ab1c36563-de57d7f5c5b14615.elb.sa-east-1.amazonaws.com:8109 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_firstdata_8209 members modify { k8s-prd-eloroute-4ab1c36563-de57d7f5c5b14615.elb.sa-east-1.amazonaws.com:8209 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_firstdata_8109 members modify { STRATUS_ME_10:8109 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_firstdata_8209 members modify { STRATUS_ME_20:8209 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_firstdata_8109 members modify { STRATUS_MC_10:8109 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_firstdata_8209 members modify { STRATUS_MC_20:8209 { session user-enabled state user-up  } }
+
+modify ltm pool pool_ingress_firstdata_cred_8153 members modify { k8s-prd-eloroute-4ab1c36563-de57d7f5c5b14615.elb.sa-east-1.amazonaws.com:8153 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_firstdata_cred_8253 members modify { k8s-prd-eloroute-4ab1c36563-de57d7f5c5b14615.elb.sa-east-1.amazonaws.com:8253 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_firstdata_cred_8153 members modify { STRATUS_ME_10:8153 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_firstdata_cred_8253 members modify { STRATUS_ME_20:8253 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_firstdata_cred_8153 members modify { STRATUS_MC_10:8153 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_firstdata_cred_8253 members modify { STRATUS_MC_20:8253 { session user-enabled state user-up  } }
+
+modify ltm pool pool_ingress_firstdata_rede_8133 members modify { k8s-prd-eloroute-9c026aa3b5-53a17f720c16198d.elb.sa-east-1.amazonaws.com:8133 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_firstdata_rede_8233 members modify { k8s-prd-eloroute-9c026aa3b5-53a17f720c16198d.elb.sa-east-1.amazonaws.com:8233 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_firstdata_rede_8133 members modify { STRATUS_ME_10:8133 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_firstdata_rede_8233 members modify { STRATUS_ME_20:8233 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_firstdata_rede_8133 members modify { STRATUS_MC_10:8133 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_firstdata_rede_8233 members modify { STRATUS_MC_20:8233 { session user-enabled state user-up  } }
+
+modify ltm pool pool_ingress_firstdata_sorocred_8187 members modify { k8s-prd-eloroute-9c026aa3b5-53a17f720c16198d.elb.sa-east-1.amazonaws.com:8187 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_firstdata_sorocred_8287 members modify { k8s-prd-eloroute-9c026aa3b5-53a17f720c16198d.elb.sa-east-1.amazonaws.com:8287 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_firstdata_sorocred_8187 members modify { STRATUS_ME_10:8187 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_firstdata_sorocred_8287 members modify { STRATUS_ME_20:8287 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_firstdata_sorocred_8187 members modify { STRATUS_MC_10:8187 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_firstdata_sorocred_8287 members modify { STRATUS_MC_20:8287 { session user-enabled state user-up  } }
+
+modify ltm pool pool_ingress_fis_sorocred_8191 members modify { k8s-prd-eloroute-9c026aa3b5-53a17f720c16198d.elb.sa-east-1.amazonaws.com:8191 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_fis_sorocred_8291 members modify { k8s-prd-eloroute-9c026aa3b5-53a17f720c16198d.elb.sa-east-1.amazonaws.com:8291 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_fis_sorocred_8191 members modify { STRATUS_ME_10:8191 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_fis_sorocred_8291 members modify { STRATUS_ME_20:8291 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_fis_sorocred_8191 members modify { STRATUS_MC_10:8191 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_fis_sorocred_8291 members modify { STRATUS_MC_20:8291 { session user-enabled state user-up  } }
+
+modify ltm pool pool_ingress_getnet_8101 members modify { k8s-prd-eloroute-371ddabc68-781557b2cab2fff5.elb.sa-east-1.amazonaws.com:8101 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_getnet_8201 members modify { k8s-prd-eloroute-371ddabc68-781557b2cab2fff5.elb.sa-east-1.amazonaws.com:8201 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_getnet_8101 members modify { STRATUS_ME_10:8101 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_getnet_8201 members modify { STRATUS_ME_20:8201 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_getnet_8101 members modify { STRATUS_MC_10:8101 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_getnet_8201 members modify { STRATUS_MC_20:8201 { session user-enabled state user-up  } }
+
+modify ltm pool pool_ingress_globalpayments_8111 members modify { k8s-prd-eloroute-2f305d1c68-562c336c0947cd89.elb.sa-east-1.amazonaws.com:8111 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_globalpayments_8211 members modify { k8s-prd-eloroute-2f305d1c68-562c336c0947cd89.elb.sa-east-1.amazonaws.com:8211 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_globalpayments_8111 members modify { STRATUS_ME_10:8111 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_globalpayments_8211 members modify { STRATUS_ME_20:8211 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_globalpayments_8111 members modify { STRATUS_MC_10:8111 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_globalpayments_8211 members modify { STRATUS_MC_20:8211 { session user-enabled state user-up  } }
+
+modify ltm pool pool_ingress_granito_8149 members modify { k8s-prd-eloroute-4ab1c36563-de57d7f5c5b14615.elb.sa-east-1.amazonaws.com:8149 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_granito_8249 members modify { k8s-prd-eloroute-4ab1c36563-de57d7f5c5b14615.elb.sa-east-1.amazonaws.com:8249 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_granito_8149 members modify { STRATUS_ME_10:8149 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_granito_8249 members modify { STRATUS_ME_20:8249 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_granito_8149 members modify { STRATUS_MC_10:8149 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_granito_8249 members modify { STRATUS_MC_20:8249 { session user-enabled state user-up  } }
+
+modify ltm pool pool_ingress_listo_8143 members modify { k8s-prd-eloroute-36e3af3044-6d24aa49bbd640dd.elb.sa-east-1.amazonaws.com:8143 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_listo_8243 members modify { k8s-prd-eloroute-36e3af3044-6d24aa49bbd640dd.elb.sa-east-1.amazonaws.com:8243 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_listo_8143 members modify { STRATUS_ME_10:8143 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_listo_8243 members modify { STRATUS_ME_20:8243 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_listo_8143 members modify { STRATUS_MC_10:8143 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_listo_8243 members modify { STRATUS_MC_20:8243 { session user-enabled state user-up  } }
+
+modify ltm pool pool_ingress_new_adiq_8411 members modify { k8s-prd-eloroute-2f305d1c68-562c336c0947cd89.elb.sa-east-1.amazonaws.com:8411 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_new_adiq_8511 members modify { k8s-prd-eloroute-2f305d1c68-562c336c0947cd89.elb.sa-east-1.amazonaws.com:8511 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_new_adiq_8411 members modify { STRATUS_ME_10:8411 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_new_adiq_8511 members modify { STRATUS_ME_20:8511 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_new_adiq_8411 members modify { STRATUS_MC_10:8411 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_new_adiq_8511 members modify { STRATUS_MC_20:8511 { session user-enabled state user-up  } }
+
+modify ltm pool pool_ingress_pagseguro_8115 members modify { k8s-prd-eloroute-7378cb2f6f-cb768aadd6ca2471.elb.sa-east-1.amazonaws.com:8115 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_pagseguro_8215 members modify { k8s-prd-eloroute-7378cb2f6f-cb768aadd6ca2471.elb.sa-east-1.amazonaws.com:8215 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_pagseguro_8115 members modify { STRATUS_ME_10:8115 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_pagseguro_8215 members modify { STRATUS_ME_20:8215 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_pagseguro_8115 members modify { STRATUS_MC_10:8115 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_pagseguro_8215 members modify { STRATUS_MC_20:8215 { session user-enabled state user-up  } }
+
+modify ltm pool pool_ingress_picpay_8413 members modify { k8s-prd-eloroute-36e3af3044-6d24aa49bbd640dd.elb.sa-east-1.amazonaws.com:8413 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_picpay_8513 members modify { k8s-prd-eloroute-36e3af3044-6d24aa49bbd640dd.elb.sa-east-1.amazonaws.com:8513 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_picpay_8413 members modify { STRATUS_ME_10:8413 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_picpay_8513 members modify { STRATUS_ME_20:8513 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_picpay_8413 members modify { STRATUS_MC_10:8413 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_picpay_8513 members modify { STRATUS_MC_20:8513 { session user-enabled state user-up  } }
+
+modify ltm pool pool_ingress_rede_8103 members modify { k8s-prd-eloroute-c1d8ff2020-1e88cbe2dfb3063a.elb.sa-east-1.amazonaws.com:8103 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_rede_8203 members modify { k8s-prd-eloroute-c1d8ff2020-1e88cbe2dfb3063a.elb.sa-east-1.amazonaws.com:8203 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_rede_8103 members modify { STRATUS_ME_10:8103 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_rede_8203 members modify { STRATUS_ME_20:8203 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_rede_8103 members modify { STRATUS_MC_10:8103 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_rede_8203 members modify { STRATUS_MC_20:8203 { session user-enabled state user-up  } }
+
+modify ltm pool pool_ingress_sabre_8119 members modify { k8s-prd-eloroute-36e3af3044-6d24aa49bbd640dd.elb.sa-east-1.amazonaws.com:8119 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_sabre_8219 members modify { k8s-prd-eloroute-36e3af3044-6d24aa49bbd640dd.elb.sa-east-1.amazonaws.com:8219 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_sabre_8119 members modify { STRATUS_ME_10:8119 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_sabre_8219 members modify { STRATUS_ME_20:8219 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_sabre_8119 members modify { STRATUS_MC_10:8119 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_sabre_8219 members modify { STRATUS_MC_20:8219 { session user-enabled state user-up  } }
+
+modify ltm pool pool_ingress_safrapay_8113 members modify { k8s-prd-eloroute-6f27e9879b-7805616a0c0b8387.elb.sa-east-1.amazonaws.com:8113 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_safrapay_8213 members modify { k8s-prd-eloroute-6f27e9879b-7805616a0c0b8387.elb.sa-east-1.amazonaws.com:8213 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_safrapay_8113 members modify { STRATUS_ME_10:8113 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_safrapay_8213 members modify { STRATUS_ME_20:8213 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_safrapay_8113 members modify { STRATUS_MC_10:8113 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_safrapay_8213 members modify { STRATUS_MC_20:8213 { session user-enabled state user-up  } }
+
+modify ltm pool pool_ingress_sicredi_8129 members modify { k8s-prd-eloroute-9c026aa3b5-53a17f720c16198d.elb.sa-east-1.amazonaws.com:8129 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_sicredi_8229 members modify { k8s-prd-eloroute-9c026aa3b5-53a17f720c16198d.elb.sa-east-1.amazonaws.com:8229 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_sicredi_8129 members modify { STRATUS_ME_10:8129 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_sicredi_8229 members modify { STRATUS_ME_20:8229 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_sicredi_8129 members modify { STRATUS_MC_10:8129 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_sicredi_8229 members modify { STRATUS_MC_20:8229 { session user-enabled state user-up  } }
+
+modify ltm pool pool_ingress_stone_8107 members modify { k8s-prd-eloroute-aacc5011e2-7c6d6bd1fb7798f1.elb.sa-east-1.amazonaws.com:8107 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_stone_8207 members modify { k8s-prd-eloroute-aacc5011e2-7c6d6bd1fb7798f1.elb.sa-east-1.amazonaws.com:8207 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_stone_8107 members modify { STRATUS_ME_10:8107 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_stone_8207 members modify { STRATUS_ME_20:8207 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_stone_8107 members modify { STRATUS_MC_10:8107 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_stone_8207 members modify { STRATUS_MC_20:8207 { session user-enabled state user-up  } }
+
+modify ltm pool pool_ingress_sumup_8175 members modify { k8s-prd-eloroute-4ab1c36563-de57d7f5c5b14615.elb.sa-east-1.amazonaws.com:8175 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_sumup_8275 members modify { k8s-prd-eloroute-4ab1c36563-de57d7f5c5b14615.elb.sa-east-1.amazonaws.com:8275 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_sumup_8175 members modify { STRATUS_ME_10:8175 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_sumup_8275 members modify { STRATUS_ME_20:8275 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_sumup_8175 members modify { STRATUS_MC_10:8175 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_sumup_8275 members modify { STRATUS_MC_20:8275 { session user-enabled state user-up  } }
+
+modify ltm pool pool_ingress_vero_8139 members modify { k8s-prd-eloroute-4ab1c36563-de57d7f5c5b14615.elb.sa-east-1.amazonaws.com:8139 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_vero_8239 members modify { k8s-prd-eloroute-4ab1c36563-de57d7f5c5b14615.elb.sa-east-1.amazonaws.com:8239 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_vero_8139 members modify { STRATUS_ME_10:8139 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_vero_8239 members modify { STRATUS_ME_20:8239 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_vero_8139 members modify { STRATUS_MC_10:8139 { session user-enabled state user-up  } }
+modify ltm pool pool_ingress_vero_8239 members modify { STRATUS_MC_20:8239 { session user-enabled state user-up  } }
