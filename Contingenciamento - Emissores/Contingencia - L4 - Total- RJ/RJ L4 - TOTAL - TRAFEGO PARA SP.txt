@@ -427,50 +427,50 @@ modify ltm pool pool_goodcard_ecvan_120 members modify { 10.36.116.53:32199 { se
 
 
 
-pool_engress_banese_28546
+
 modify ltm pool pool_engress_banese_28546 members modify { 10.35.170.131:28543 { session user-enabled state user-up } }
 modify ltm pool pool_engress_banese_28546 members modify { 10.36.170.131:28546 { session user-disabled state user-down } }
-pool_elorouter_banese_38546_210
+
 modify ltm pool pool_elorouter_banese_38546_210 members modify { 10.35.181.12:38546 { session user-disabled state user-down } }
 modify ltm pool pool_elorouter_banese_38546_210 members modify { k8s-prd-eloroute-ff92b426d6-d184cb603f164b20.elb.sa-east-1.amazonaws.com:38543 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_banese_38546_210 members modify { k8s-prd-eloroute-94f9657fe4-d488febae1ce3ca2.elb.sa-east-1.amazonaws.com:38546 { session user-disabled state user-down } }
-pool_elorouter_banese_38546_220
+
 modify ltm pool pool_elorouter_banese_38546_220 members modify { 10.35.181.14:38546 { session user-disabled state user-down } }
 modify ltm pool pool_elorouter_banese_38546_220 members modify { k8s-prd-eloroute-ff92b426d6-d184cb603f164b20.elb.sa-east-1.amazonaws.com:38544 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_banese_38546_220 members modify { k8s-prd-eloroute-94f9657fe4-d488febae1ce3ca2.elb.sa-east-1.amazonaws.com:38547 { session user-disabled state user-down } }
 
-pool_engress_banese_28556
+
 modify ltm pool pool_engress_banese_28556 members modify { 10.35.170.131:28543 { session user-enabled state user-up } }
 modify ltm pool pool_engress_banese_28556 members modify { 10.36.170.131:28546 { session user-disabled state user-down } }
-pool_elorouter_banese_38556_210
+
 modify ltm pool pool_elorouter_banese_38556_210 members modify { 10.35.181.12:38556 { session user-disabled state user-down } }
 modify ltm pool pool_elorouter_banese_38556_210 members modify { k8s-prd-eloroute-ff92b426d6-d184cb603f164b20.elb.sa-east-1.amazonaws.com:38553 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_banese_38556_210 members modify { k8s-prd-eloroute-94f9657fe4-d488febae1ce3ca2.elb.sa-east-1.amazonaws.com:38556 { session user-disabled state user-down } }
-pool_elorouter_banese_38556_220
+
 modify ltm pool pool_elorouter_banese_38556_220 members modify { 10.35.181.14:38556 { session user-disabled state user-down } }
 modify ltm pool pool_elorouter_banese_38556_220 members modify { k8s-prd-eloroute-ff92b426d6-d184cb603f164b20.elb.sa-east-1.amazonaws.com:38554 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_banese_38556_220 members modify { k8s-prd-eloroute-94f9657fe4-d488febae1ce3ca2.elb.sa-east-1.amazonaws.com:38557 { session user-disabled state user-down } }
 
-pool_engress_banese_28566
+
 modify ltm pool pool_engress_banese_28566 members modify { 10.35.170.131:28543 { session user-enabled state user-up } }
 modify ltm pool pool_engress_banese_28566 members modify { 10.36.170.131:28546 { session user-disabled state user-down } }
-pool_elorouter_banese_38566_210
+
 modify ltm pool pool_elorouter_banese_38566_210 members modify { 10.35.181.12:38566 { session user-disabled state user-down } }
 modify ltm pool pool_elorouter_banese_38566_210 members modify { k8s-prd-eloroute-e5ce15a311-063b91b3e11ca6f5.elb.sa-east-1.amazonaws.com:38563 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_banese_38566_210 members modify { k8s-prd-eloroute-d654c18a0d-939110f3355a4996.elb.sa-east-1.amazonaws.com:38566 { session user-disabled state user-down } }
-pool_elorouter_banese_38566_220
+
 modify ltm pool pool_elorouter_banese_38566_220 members modify { 10.35.181.14:38566 { session user-disabled state user-down } }
 modify ltm pool pool_elorouter_banese_38566_220 members modify { k8s-prd-eloroute-e5ce15a311-063b91b3e11ca6f5.elb.sa-east-1.amazonaws.com:38564 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_banese_38566_220 members modify { k8s-prd-eloroute-d654c18a0d-939110f3355a4996.elb.sa-east-1.amazonaws.com:38567 { session user-disabled state user-down } }
 
-pool_engress_banese_28576
+
 modify ltm pool pool_engress_banese_28576 members modify { 10.35.170.131:28543 { session user-enabled state user-up } }
 modify ltm pool pool_engress_banese_28576 members modify { 10.36.170.131:28546 { session user-disabled state user-down } }
-pool_elorouter_banese_38576_210
+
 modify ltm pool pool_elorouter_banese_38576_210 members modify { 10.35.181.12:38576 { session user-disabled state user-down } }
 modify ltm pool pool_elorouter_banese_38576_210 members modify { k8s-prd-eloroute-e5ce15a311-063b91b3e11ca6f5.elb.sa-east-1.amazonaws.com:38573 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_banese_38576_210 members modify { k8s-prd-eloroute-d654c18a0d-939110f3355a4996.elb.sa-east-1.amazonaws.com:38576 { session user-disabled state user-down } }
-pool_elorouter_banese_38576_220
+
 modify ltm pool pool_elorouter_banese_38576_220 members modify { 10.35.181.14:38576 { session user-disabled state user-down } }
 modify ltm pool pool_elorouter_banese_38576_220 members modify { k8s-prd-eloroute-e5ce15a311-063b91b3e11ca6f5.elb.sa-east-1.amazonaws.com:38574 { session user-enabled state user-up } }	
 modify ltm pool pool_elorouter_banese_38576_220 members modify { k8s-prd-eloroute-d654c18a0d-939110f3355a4996.elb.sa-east-1.amazonaws.com:38577 { session user-disabled state user-down } }
