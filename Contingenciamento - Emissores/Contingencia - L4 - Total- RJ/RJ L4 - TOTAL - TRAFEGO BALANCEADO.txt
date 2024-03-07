@@ -230,7 +230,7 @@ delete sys connection cs-server-port 38226
 
 
 
-BRADESCO DEBITO 
+BRADESCO CREDITO 
 
 modify ltm pool pool_engress_bradesco_credito_28206 members modify { 10.35.170.131:28203 { session user-enabled state user-up } }
 modify ltm pool pool_engress_bradesco_credito_28206 members modify { 10.36.170.131:28206 { session user-enabled state user-up } }
