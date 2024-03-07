@@ -7,6 +7,9 @@ modify ltm pool pool_elorouter_arbi_38353_210 members modify { k8s-prd-eloroute-
 modify ltm pool pool_elorouter_arbi_38353_220 members modify { k8s-prd-eloroute-a06d743903-717dc95621d1739b.elb.sa-east-1.amazonaws.com:38354 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_arbi_38353_220 members modify { k8s-prd-eloroute-8051bfb2a5-07151bcb25a36e13.elb.sa-east-1.amazonaws.com:38357 { session user-disabled state user-down } }
 
+delete sys connection cs-server-port 28353
+delete sys connection cs-server-port 38353
+
 
 
 
@@ -18,6 +21,9 @@ modify ltm pool pool_elorouter_dock_38933_210 members modify { k8s-prd-eloroute-
 modify ltm pool pool_elorouter_dock_38933_210 members modify { k8s-prd-eloroute-690c7d1bac-c25d27b9ad86ba08.elb.sa-east-1.amazonaws.com:38936 { session user-disabled state user-down } }
 modify ltm pool pool_elorouter_dock_38933_220 members modify { k8s-prd-eloroute-421f4cc32e-a288f8b08a23e2a0.elb.sa-east-1.amazonaws.com:38934 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_dock_38933_220 members modify { k8s-prd-eloroute-690c7d1bac-c25d27b9ad86ba08.elb.sa-east-1.amazonaws.com:38937 { session user-disabled state user-down } }
+
+delete sys connection cs-server-port 28933
+delete sys connection cs-server-port 38933
 
 
 
@@ -31,6 +37,9 @@ modify ltm pool pool_elorouter_dock_crefisa_38473_210 members modify { k8s-prd-e
 modify ltm pool pool_elorouter_dock_crefisa_38473_220 members modify { k8s-prd-eloroute-421f4cc32e-a288f8b08a23e2a0.elb.sa-east-1.amazonaws.com:38474 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_dock_crefisa_38473_220 members modify { k8s-prd-eloroute-690c7d1bac-c25d27b9ad86ba08.elb.sa-east-1.amazonaws.com:38477 { session user-disabled state user-down } }
 
+delete sys connection cs-server-port 28473
+delete sys connection cs-server-port 38473
+
 
 
 
@@ -42,6 +51,9 @@ modify ltm pool pool_elorouter_asaas_38843_210 members modify { k8s-prd-eloroute
 modify ltm pool pool_elorouter_asaas_38843_210 members modify { k8s-prd-eloroute-5091d591f1-218009ca6d671dc1.elb.sa-east-1.amazonaws.com:38846 { session user-disabled state user-down } }
 modify ltm pool pool_elorouter_asaas_38843_220 members modify { k8s-prd-eloroute-23b8e43664-dd03e33feda52fa4.elb.sa-east-1.amazonaws.com:38844 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_asaas_38843_220 members modify { k8s-prd-eloroute-5091d591f1-218009ca6d671dc1.elb.sa-east-1.amazonaws.com:38847 { session user-disabled state user-down } }
+
+delete sys connection cs-server-port 28843
+delete sys connection cs-server-port 38843
 
 
 
@@ -55,6 +67,9 @@ modify ltm pool pool_elorouter_banco_original_38393_210 members modify { k8s-prd
 modify ltm pool pool_elorouter_banco_original_38393_220 members modify { k8s-prd-eloroute-13f316d0db-4a72f0677d99ecb5.elb.sa-east-1.amazonaws.com:38394 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_banco_original_38393_220 members modify { k8s-prd-eloroute-629b3f7bbe-1bde0c8447603404.elb.sa-east-1.amazonaws.com:38397 { session user-disabled state user-down } }
 
+delete sys connection cs-server-port 28393
+delete sys connection cs-server-port 38393
+
 
 
 
@@ -66,6 +81,9 @@ modify ltm pool pool_elorouter_banco_pan_38413_210 members modify { k8s-prd-elor
 modify ltm pool pool_elorouter_banco_pan_38413_210 members modify { k8s-prd-eloroute-d9bc9ffcb3-4cb7f94125edf8ea.elb.sa-east-1.amazonaws.com:38416 { session user-disabled state user-down } }
 modify ltm pool pool_elorouter_banco_pan_38413_220 members modify { k8s-prd-eloroute-760adbf1fa-14e94cc1e4812525.elb.sa-east-1.amazonaws.com:38414 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_banco_pan_38413_220 members modify { k8s-prd-eloroute-d9bc9ffcb3-4cb7f94125edf8ea.elb.sa-east-1.amazonaws.com:38417 { session user-disabled state user-down } }
+
+delete sys connection cs-server-port 28413
+delete sys connection cs-server-port 38413
 
 
 
@@ -79,6 +97,9 @@ modify ltm pool pool_elorouter_bv_dxc_38643_210 members modify { k8s-prd-elorout
 modify ltm pool pool_elorouter_bv_dxc_38643_220 members modify { k8s-prd-eloroute-855ea3a956-aa76f73acc66306f.elb.sa-east-1.amazonaws.com:38644 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_bv_dxc_38643_220 members modify { k8s-prd-eloroute-aac284d85e-eb45ec7118068ef9.elb.sa-east-1.amazonaws.com:38647 { session user-disabled state user-down } }
 
+delete sys connection cs-server-port 28643
+delete sys connection cs-server-port 38643
+
 
 
 
@@ -91,6 +112,9 @@ modify ltm pool pool_elorouter_cetelem_38333_210 members modify { k8s-prd-elorou
 modify ltm pool pool_elorouter_cetelem_38333_220 members modify { k8s-prd-eloroute-2f097a7d7e-97b32543b6b94d7e.elb.sa-east-1.amazonaws.com:38334 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_cetelem_38333_220 members modify { k8s-prd-eloroute-8971805b07-9f02a3d2a3dabdbe.elb.sa-east-1.amazonaws.com:38337 { session user-disabled state user-down } }
 
+delete sys connection cs-server-port 28333
+delete sys connection cs-server-port 38333
+
 
 
 
@@ -98,6 +122,8 @@ COMPRA DINERS
 
 modify ltm pool pool_egress_compra_diners_sp_28603 members modify { 10.35.170.130:28603 { session user-enabled state user-up } }
 modify ltm pool pool_egress_compra_diners_sp_28603 members modify { 10.36.170.130:28606 { session user-disabled state user-down } }
+
+delete sys connection cs-server-port 28603
 
 
 
@@ -111,6 +137,9 @@ modify ltm pool pool_elorouter_conductor_bahamas_38363_210 members modify { k8s-
 modify ltm pool pool_elorouter_conductor_bahamas_38363_220 members modify { k8s-prd-eloroute-a06d743903-717dc95621d1739b.elb.sa-east-1.amazonaws.com:38364 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_conductor_bahamas_38363_220 members modify { k8s-prd-eloroute-8051bfb2a5-07151bcb25a36e13.elb.sa-east-1.amazonaws.com:38367 { session user-disabled state user-down } }
 
+delete sys connection cs-server-port 28363
+delete sys connection cs-server-port 38363
+
 
 
 
@@ -118,6 +147,8 @@ CONDUCTOR CIELO
 
 modify ltm pool pool_egress_conductor_cielo_28243 members modify { 10.35.170.130:28243 { session user-enabled state user-up } }
 modify ltm pool pool_egress_conductor_cielo_28243 members modify { 10.36.170.130:28246 { session user-disabled state user-down } }
+
+delete sys connection cs-server-port 28243
 
 
 
@@ -131,6 +162,9 @@ modify ltm pool pool_elorouter_conductor_facta_credito_38743_210 members modify 
 modify ltm pool pool_elorouter_conductor_facta_credito_38743_210 members modify { k8s-prd-eloroute-23b8e43664-dd03e33feda52fa4.elb.sa-east-1.amazonaws.com:38744 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_conductor_facta_credito_38743_210 members modify { k8s-prd-eloroute-5091d591f1-218009ca6d671dc1.elb.sa-east-1.amazonaws.com:38747 { session user-disabled state user-down } }
 
+delete sys connection cs-server-port 28743
+delete sys connection cs-server-port 38743
+
 
 
 
@@ -142,6 +176,9 @@ modify ltm pool pool_elorouter_conductor_facta_debito_38733_210 members modify {
 modify ltm pool pool_elorouter_conductor_facta_debito_38733_210 members modify { k8s-prd-eloroute-5091d591f1-218009ca6d671dc1.elb.sa-east-1.amazonaws.com:38736 { session user-disabled state user-down } }
 modify ltm pool pool_elorouter_conductor_facta_debito_38733_220 members modify { k8s-prd-eloroute-23b8e43664-dd03e33feda52fa4.elb.sa-east-1.amazonaws.com:38734 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_conductor_facta_debito_38733_220 members modify { k8s-prd-eloroute-5091d591f1-218009ca6d671dc1.elb.sa-east-1.amazonaws.com:38737 { session user-disabled state user-down } }
+
+delete sys connection cs-server-port 28733
+delete sys connection cs-server-port 38733
 
 
 
@@ -155,6 +192,9 @@ modify ltm pool pool_elorouter_conductor_pefisa_debito_38693_210 members modify 
 modify ltm pool pool_elorouter_conductor_pefisa_debito_38693_220 members modify { k8s-prd-eloroute-2edcbbbe68-39c0df719b05ffc2.elb.sa-east-1.amazonaws.com:38694 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_conductor_pefisa_debito_38693_220 members modify { k8s-prd-eloroute-d7bee667ff-b39572a098fcf676.elb.sa-east-1.amazonaws.com:38697 { session user-disabled state user-down } }
 
+delete sys connection cs-server-port 28693
+delete sys connection cs-server-port 38693
+
 
 
 
@@ -166,6 +206,9 @@ modify ltm pool pool_elorouter_conductor_vox_38313_210 members modify { k8s-prd-
 modify ltm pool pool_elorouter_conductor_vox_38313_210 members modify { k8s-prd-eloroute-8971805b07-9f02a3d2a3dabdbe.elb.sa-east-1.amazonaws.com:38316 { session user-disabled state user-down } }
 modify ltm pool pool_elorouter_conductor_vox_38313_220 members modify { k8s-prd-eloroute-2f097a7d7e-97b32543b6b94d7e.elb.sa-east-1.amazonaws.com:38314 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_conductor_vox_38313_220 members modify { k8s-prd-eloroute-8971805b07-9f02a3d2a3dabdbe.elb.sa-east-1.amazonaws.com:38317 { session user-disabled state user-down } }
+
+delete sys connection cs-server-port 28313
+delete sys connection cs-server-port 38313
 
 
 
@@ -179,6 +222,9 @@ modify ltm pool pool_elorouter_digio_38853_210 members modify { k8s-prd-eloroute
 modify ltm pool pool_elorouter_digio_38853_220 members modify { k8s-prd-eloroute-e5c988e908-5d0b42eb6f725e4a.elb.sa-east-1.amazonaws.com:38854 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_digio_38853_220 members modify { k8s-prd-eloroute-e0c0e1a0c9-4f5f488f961e1a4e.elb.sa-east-1.amazonaws.com:38857 { session user-disabled state user-down } }
 
+delete sys connection cs-server-port 28853
+delete sys connection cs-server-port 38853
+
 
 
 
@@ -190,6 +236,9 @@ modify ltm pool pool_elorouter_digio_driver_38453_210 members modify { k8s-prd-e
 modify ltm pool pool_elorouter_digio_driver_38453_210 members modify { k8s-prd-eloroute-e0c0e1a0c9-4f5f488f961e1a4e.elb.sa-east-1.amazonaws.com:38456 { session user-disabled state user-down } } 
 modify ltm pool pool_elorouter_digio_driver_38453_220 members modify { k8s-prd-eloroute-e5c988e908-5d0b42eb6f725e4a.elb.sa-east-1.amazonaws.com:38454 { session user-enabled state user-up } } 
 modify ltm pool pool_elorouter_digio_driver_38453_220 members modify { k8s-prd-eloroute-e0c0e1a0c9-4f5f488f961e1a4e.elb.sa-east-1.amazonaws.com:38457 { session user-disabled state user-down } }              
+
+delete sys connection cs-server-port 28453
+delete sys connection cs-server-port 38453
 
 
 
@@ -203,6 +252,9 @@ modify ltm pool pool_elorouter_dotz_38913_210 members modify { k8s-prd-eloroute-
 modify ltm pool pool_elorouter_dotz_38913_220 members modify { k8s-prd-eloroute-421f4cc32e-a288f8b08a23e2a0.elb.sa-east-1.amazonaws.com:38914 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_dotz_38913_220 members modify { k8s-prd-eloroute-690c7d1bac-c25d27b9ad86ba08.elb.sa-east-1.amazonaws.com:38917 { session user-disabled state user-down } }
 
+delete sys connection cs-server-port 28913
+delete sys connection cs-server-port 38913
+
 
 
 
@@ -214,6 +266,9 @@ modify ltm pool pool_elorouter_edenred_38433_210 members modify { k8s-prd-elorou
 modify ltm pool pool_elorouter_edenred_38433_210 members modify { k8s-prd-eloroute-c086e5a28a-61c1eea2ceb89e26.elb.sa-east-1.amazonaws.com:38436 { session user-disabled state user-down } }
 modify ltm pool pool_elorouter_edenred_38433_220 members modify { k8s-prd-eloroute-a59060ec0b-505668f4f9af3c3e.elb.sa-east-1.amazonaws.com:38434 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_edenred_38433_220 members modify { k8s-prd-eloroute-c086e5a28a-61c1eea2ceb89e26.elb.sa-east-1.amazonaws.com:38437 { session user-disabled state user-down } }
+
+delete sys connection cs-server-port 28433
+delete sys connection cs-server-port 38433
 
 
 
@@ -227,6 +282,9 @@ modify ltm pool pool_elorouter_edenred_goodcard_38443_210 members modify { k8s-p
 modify ltm pool pool_elorouter_edenred_goodcard_38443_220 members modify { k8s-prd-eloroute-a59060ec0b-505668f4f9af3c3e.elb.sa-east-1.amazonaws.com:38444 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_edenred_goodcard_38443_220 members modify { k8s-prd-eloroute-c086e5a28a-61c1eea2ceb89e26.elb.sa-east-1.amazonaws.com:38447 { session user-disabled state user-down } }
 
+delete sys connection cs-server-port 28443
+delete sys connection cs-server-port 38443
+
 
 
 
@@ -238,6 +296,9 @@ modify ltm pool pool_elorouter_mercantil_credito_38283_210 members modify { k8s-
 modify ltm pool pool_elorouter_mercantil_credito_38283_210 members modify { k8s-prd-eloroute-d9bc9ffcb3-4cb7f94125edf8ea.elb.sa-east-1.amazonaws.com:38286 { session user-disabled state user-down } }
 modify ltm pool pool_elorouter_mercantil_credito_38283_220 members modify { k8s-prd-eloroute-760adbf1fa-14e94cc1e4812525.elb.sa-east-1.amazonaws.com:38284 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_mercantil_credito_38283_220 members modify { k8s-prd-eloroute-d9bc9ffcb3-4cb7f94125edf8ea.elb.sa-east-1.amazonaws.com:38287 { session user-disabled state user-down } }
+
+delete sys connection cs-server-port 28283
+delete sys connection cs-server-port 38283
 
 
 
@@ -251,6 +312,10 @@ modify ltm pool pool_elorouter_mercantil_debito_38293_210 members modify { k8s-p
 modify ltm pool pool_elorouter_mercantil_debito_38293_220 members modify { k8s-prd-eloroute-760adbf1fa-14e94cc1e4812525.elb.sa-east-1.amazonaws.com:38294 { session user-enabled state user-up } }               
 modify ltm pool pool_elorouter_mercantil_debito_38293_220 members modify { k8s-prd-eloroute-d9bc9ffcb3-4cb7f94125edf8ea.elb.sa-east-1.amazonaws.com:38297 { session user-disabled state user-down } }
 
+delete sys connection cs-server-port 28293
+delete sys connection cs-server-port 38293
+
+
 
 
 ORBITAL 
@@ -262,6 +327,9 @@ modify ltm pool pool_elorouter_orbitall_38653_210 members modify { k8s-prd-eloro
 modify ltm pool pool_elorouter_orbitall_38653_220 members modify { k8s-prd-eloroute-855ea3a956-aa76f73acc66306f.elb.sa-east-1.amazonaws.com:38654 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_orbitall_38653_220 members modify { k8s-prd-eloroute-aac284d85e-eb45ec7118068ef9.elb.sa-east-1.amazonaws.com:38657 { session user-disabled state user-down } }
 
+delete sys connection cs-server-port 28653
+delete sys connection cs-server-port 38653
+
 
 
 
@@ -269,6 +337,8 @@ PAYSMART EWALLY
 
 modify ltm pool pool_egress_paysmart_ewally_28833 members modify { 10.35.170.131:28833 { session user-enabled state user-up } }
 modify ltm pool pool_egress_paysmart_ewally_28833 members modify { 10.36.170.131:28836 { session user-disabled state user-down } }
+
+delete sys connection cs-server-port 28833
 
 
 
@@ -282,6 +352,9 @@ modify ltm pool pool_elorouter_paysmart_fitbank_38343_210 members modify { k8s-p
 modify ltm pool pool_elorouter_paysmart_fitbank_38343_220 members modify { k8s-prd-eloroute-2f097a7d7e-97b32543b6b94d7e.elb.sa-east-1.amazonaws.com:38344 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_paysmart_fitbank_38343_220 members modify { k8s-prd-eloroute-8971805b07-9f02a3d2a3dabdbe.elb.sa-east-1.amazonaws.com:38347 { session user-disabled state user-down } }
 
+delete sys connection cs-server-port 28343
+delete sys connection cs-server-port 38343
+
 
 
          
@@ -293,6 +366,9 @@ modify ltm pool pool_elorouter_paysmart_ifood_38243_210 members modify { k8s-prd
 modify ltm pool pool_elorouter_paysmart_ifood_38243_210 members modify { k8s-prd-eloroute-752ec92c14-685cc1699dbfd805.elb.sa-east-1.amazonaws.com:38246 { session user-disabled state user-down } }   
 modify ltm pool pool_elorouter_paysmart_ifood_38243_220 members modify { k8s-prd-eloroute-a9f58002c1-f390d6bda0521754.elb.sa-east-1.amazonaws.com:38244 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_paysmart_ifood_38243_220 members modify { k8s-prd-eloroute-752ec92c14-685cc1699dbfd805.elb.sa-east-1.amazonaws.com:38247 { session user-disabled state user-down } }
+
+delete sys connection cs-server-port 28243
+delete sys connection cs-server-port 38243
 
 
 
@@ -306,6 +382,9 @@ modify ltm pool pool_elorouter_paysmart_volus_38373_210 members modify { k8s-prd
 modify ltm pool pool_elorouter_paysmart_volus_38373_220 members modify { k8s-prd-eloroute-a06d743903-717dc95621d1739b.elb.sa-east-1.amazonaws.com:38374 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_paysmart_volus_38373_220 members modify { k8s-prd-eloroute-8051bfb2a5-07151bcb25a36e13.elb.sa-east-1.amazonaws.com:38377 { session user-disabled state user-down } }
 
+delete sys connection cs-server-port 28373
+delete sys connection cs-server-port 38373
+
 
 
 
@@ -318,6 +397,9 @@ modify ltm pool pool_elorouter_picpay_38593_210 members modify { k8s-prd-elorout
 modify ltm pool pool_elorouter_picpay_38593_220 members modify { k8s-prd-eloroute-e5ce15a311-063b91b3e11ca6f5.elb.sa-east-1.amazonaws.com:38594 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_picpay_38593_220 members modify { k8s-prd-eloroute-d654c18a0d-939110f3355a4996.elb.sa-east-1.amazonaws.com:38597 { session user-disabled state user-down } }  
  
+delete sys connection cs-server-port 28593
+delete sys connection cs-server-port 38593
+
 
 
                       
@@ -326,6 +408,8 @@ PISMO BV
 modify ltm pool pool_egress_pismo_bv_28233 members modify { 10.35.170.130:28233 { session user-enabled state user-up } }
 modify ltm pool pool_egress_pismo_bv_28233 members modify { 10.36.170.130:28236 { session user-disabled state user-down } }
 
+delete sys connection cs-server-port 28233
+
 
 
 
@@ -333,6 +417,8 @@ PISMO PEFISA
 
 modify ltm pool pool_egress_pismo_pefisa_28943 members modify { 10.35.170.130:28943 { session user-enabled state user-up } }
 modify ltm pool pool_egress_pismo_pefisa_28943 members modify { 10.36.170.130:28946 { session user-disabled state user-down } }
+
+delete sys connection cs-server-port 28943
 
 
 
@@ -346,6 +432,9 @@ modify ltm pool pool_elorouter_pefisa_38703_210 members modify { k8s-prd-elorout
 modify ltm pool pool_elorouter_pefisa_38703_220 members modify { k8s-prd-eloroute-2edcbbbe68-39c0df719b05ffc2.elb.sa-east-1.amazonaws.com:38704 { session user-enabled state user-up } } 
 modify ltm pool pool_elorouter_pefisa_38703_220 members modify { k8s-prd-eloroute-d7bee667ff-b39572a098fcf676.elb.sa-east-1.amazonaws.com:38707 { session user-disabled state user-down } }
 
+delete sys connection cs-server-port 28703
+delete sys connection cs-server-port 38703
+
 
 
 
@@ -358,6 +447,9 @@ modify ltm pool pool_elorouter_pps_ticket_38503_210 members modify { k8s-prd-elo
 modify ltm pool pool_elorouter_pps_ticket_38503_220 members modify { k8s-prd-eloroute-13f316d0db-4a72f0677d99ecb5.elb.sa-east-1.amazonaws.com:38504 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_pps_ticket_38503_220 members modify { k8s-prd-eloroute-629b3f7bbe-1bde0c8447603404.elb.sa-east-1.amazonaws.com:38507 { session user-disabled state user-down } }
 
+delete sys connection cs-server-port 28503
+delete sys connection cs-server-port 38503
+
 
 
 
@@ -367,7 +459,10 @@ modify ltm pool pool_egress_pulse_28783 members modify { 10.35.170.130:28783 { s
 modify ltm pool pool_egress_pulse_28783 members modify { 10.36.170.130:28786 { session user-disabled state user-down } }	
 modify ltm pool pool_egress_pulse_28793 members modify { 10.35.170.130:28793 { session user-enabled state user-up } }
 modify ltm pool pool_egress_pulse_28793 members modify { 10.36.170.130:28796 { session user-disabled state user-down } }
-                    
+
+delete sys connection cs-server-port 28783
+delete sys connection cs-server-port 28793
+
 
 
 
@@ -380,12 +475,18 @@ modify ltm pool pool_elorouter_red_38523_210 members modify { k8s-prd-eloroute-7
 modify ltm pool pool_elorouter_red_38523_220 members modify { k8s-prd-eloroute-a9f58002c1-f390d6bda0521754.elb.sa-east-1.amazonaws.com:38524 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_red_38523_220 members modify { k8s-prd-eloroute-752ec92c14-685cc1699dbfd805.elb.sa-east-1.amazonaws.com:38527 { session user-disabled state user-down } }
 
+delete sys connection cs-server-port 28523
+delete sys connection cs-server-port 38523
+
 modify ltm pool pool_egress_red_28533 members modify { 10.35.170.131:28533 { session user-enabled state user-up } }
 modify ltm pool pool_egress_red_28533 members modify { 10.36.170.131:28526 { session user-disabled state user-down } }
 modify ltm pool pool_elorouter_red_38533_210 members modify { k8s-prd-eloroute-a9f58002c1-f390d6bda0521754.elb.sa-east-1.amazonaws.com:38533 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_red_38533_210 members modify { k8s-prd-eloroute-752ec92c14-685cc1699dbfd805.elb.sa-east-1.amazonaws.com:38536 { session user-disabled state user-down } }
 modify ltm pool pool_elorouter_red_38533_220 members modify { k8s-prd-eloroute-a9f58002c1-f390d6bda0521754.elb.sa-east-1.amazonaws.com:38534 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_red_38533_220 members modify { k8s-prd-eloroute-752ec92c14-685cc1699dbfd805.elb.sa-east-1.amazonaws.com:38537 { session user-disabled state user-down } }
+
+delete sys connection cs-server-port 28533
+delete sys connection cs-server-port 38533
 
 
 
@@ -399,6 +500,9 @@ modify ltm pool pool_egress_resomaq_28263 members modify { k8s-prd-eloroute-47a9
 modify ltm pool pool_elorouter_resomaq_38263_220 members modify { k8s-prd-eloroute-ded6ec8dfd-bffe3d761ee9c49d.elb.sa-east-1.amazonaws.com:38264 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_resomaq_38263_220 members modify { k8s-prd-eloroute-47a943e509-7bb694dda5549288.elb.sa-east-1.amazonaws.com:38267 { session user-disabled state user-down } }
 
+delete sys connection cs-server-port 28263
+delete sys connection cs-server-port 38263
+
 
 
 
@@ -410,6 +514,9 @@ modify ltm pool pool_elorouter_seven_38383_210 members modify { k8s-prd-eloroute
 modify ltm pool pool_elorouter_seven_38383_210 members modify { k8s-prd-eloroute-629b3f7bbe-1bde0c8447603404.elb.sa-east-1.amazonaws.com:38386 { session user-disabled state user-down } }
 modify ltm pool pool_elorouter_seven_38383_220 members modify { k8s-prd-eloroute-13f316d0db-4a72f0677d99ecb5.elb.sa-east-1.amazonaws.com:38384 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_seven_38383_220 members modify { k8s-prd-eloroute-629b3f7bbe-1bde0c8447603404.elb.sa-east-1.amazonaws.com:38387 { session user-disabled state user-down } }
+
+delete sys connection cs-server-port 28383
+delete sys connection cs-server-port 38383
 
 
 
@@ -423,6 +530,9 @@ modify ltm pool pool_elorouter_seven_alelo_38323_210 members modify { k8s-prd-el
 modify ltm pool pool_elorouter_seven_alelo_38323_220 members modify { k8s-prd-eloroute-b6a08b366a-7ed0fde25546f90c.elb.sa-east-1.amazonaws.com:38324 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_seven_alelo_38323_220 members modify { k8s-prd-eloroute-b03f40c2de-206a7ef00cfbcefe.elb.sa-east-1.amazonaws.com:38327 { session user-disabled state user-down } }
 
+delete sys connection cs-server-port 28323
+delete sys connection cs-server-port 38323
+
 
 
 
@@ -434,6 +544,9 @@ modify ltm pool pool_elorouter_sodexo_38673_210 members modify { k8s-prd-elorout
 modify ltm pool pool_elorouter_sodexo_38673_210 members modify { k8s-prd-eloroute-47a943e509-7bb694dda5549288.elb.sa-east-1.amazonaws.com:38676 { session user-disabled state user-down } }
 modify ltm pool pool_elorouter_sodexo_38673_220 members modify { k8s-prd-eloroute-ded6ec8dfd-bffe3d761ee9c49d.elb.sa-east-1.amazonaws.com:38674 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_sodexo_38673_220 members modify { k8s-prd-eloroute-47a943e509-7bb694dda5549288.elb.sa-east-1.amazonaws.com:38677 { session user-disabled state user-down } }
+
+delete sys connection cs-server-port 28673
+delete sys connection cs-server-port 38673
 
 
 
@@ -447,6 +560,9 @@ modify ltm pool pool_elorouter_alelo_38273_210 members modify { k8s-prd-eloroute
 modify ltm pool pool_elorouter_alelo_38273_220 members modify { k8s-prd-eloroute-b6a08b366a-7ed0fde25546f90c.elb.sa-east-1.amazonaws.com:38274 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_alelo_38273_220 members modify { k8s-prd-eloroute-b03f40c2de-206a7ef00cfbcefe.elb.sa-east-1.amazonaws.com:38277 { session user-disabled state user-down } }
 
+delete sys connection cs-server-port 28273
+delete sys connection cs-server-port 38273
+
 
 
 
@@ -458,6 +574,9 @@ modify ltm pool pool_elorouter_bancoum_38773_210 members modify { k8s-prd-elorou
 modify ltm pool pool_elorouter_bancoum_38773_210 members modify { k8s-prd-eloroute-47a943e509-7bb694dda5549288.elb.sa-east-1.amazonaws.com:38776 { session user-disabled state user-down } }               
 modify ltm pool pool_elorouter_bancoum_38773_220 members modify { k8s-prd-eloroute-ded6ec8dfd-bffe3d761ee9c49d.elb.sa-east-1.amazonaws.com:38774 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_bancoum_38773_220 members modify { k8s-prd-eloroute-47a943e509-7bb694dda5549288.elb.sa-east-1.amazonaws.com:38777 { session user-disabled state user-down } }
+
+delete sys connection cs-server-port 28773
+delete sys connection cs-server-port 38773
 
 
 
@@ -471,12 +590,18 @@ modify ltm pool pool_elorouter_banese_38543_210 members modify { k8s-prd-elorout
 modify ltm pool pool_elorouter_banese_38543_220 members modify { k8s-prd-eloroute-ff92b426d6-d184cb603f164b20.elb.sa-east-1.amazonaws.com:38544 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_banese_38543_220 members modify { k8s-prd-eloroute-94f9657fe4-d488febae1ce3ca2.elb.sa-east-1.amazonaws.com:38547 { session user-disabled state user-down } }
 
+delete sys connection cs-server-port 28543
+delete sys connection cs-server-port 38543
+
 modify ltm pool pool_engress_banese_28553 members modify { 10.35.170.131:28543 { session user-enabled state user-up } }
 modify ltm pool pool_engress_banese_28553 members modify { 10.36.170.131:28546 { session user-disabled state user-down } }                     
 modify ltm pool pool_elorouter_banese_38543_210 members modify { k8s-prd-eloroute-ff92b426d6-d184cb603f164b20.elb.sa-east-1.amazonaws.com:38553 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_banese_38543_210 members modify { k8s-prd-eloroute-94f9657fe4-d488febae1ce3ca2.elb.sa-east-1.amazonaws.com:38556 { session user-disabled state user-down } }
 modify ltm pool pool_elorouter_banese_38543_220 members modify { k8s-prd-eloroute-ff92b426d6-d184cb603f164b20.elb.sa-east-1.amazonaws.com:38554 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_banese_38543_220 members modify { k8s-prd-eloroute-94f9657fe4-d488febae1ce3ca2.elb.sa-east-1.amazonaws.com:38557 { session user-disabled state user-down } }
+
+delete sys connection cs-server-port 28553
+delete sys connection cs-server-port 38543
 
 modify ltm pool pool_engress_banese_28563 members modify { 10.35.170.131:28543 { session user-enabled state user-up } }
 modify ltm pool pool_engress_banese_28563 members modify { 10.36.170.131:28546 { session user-disabled state user-down } } 
@@ -485,12 +610,18 @@ modify ltm pool pool_elorouter_banese_38563_210 members modify { k8s-prd-elorout
 modify ltm pool pool_elorouter_banese_38563_220 members modify { k8s-prd-eloroute-e5ce15a311-063b91b3e11ca6f5.elb.sa-east-1.amazonaws.com:38564 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_banese_38563_220 members modify { k8s-prd-eloroute-d654c18a0d-939110f3355a4996.elb.sa-east-1.amazonaws.com:38567 { session user-disabled state user-down } }        
 
+delete sys connection cs-server-port 28563
+delete sys connection cs-server-port 38563
+
 modify ltm pool pool_engress_banese_28573 members modify { 10.35.170.131:28543 { session user-enabled state user-up } }
 modify ltm pool pool_engress_banese_28573 members modify { 10.36.170.131:28546 { session user-disabled state user-down } }  
 modify ltm pool pool_elorouter_banese_38573_210 members modify { k8s-prd-eloroute-e5ce15a311-063b91b3e11ca6f5.elb.sa-east-1.amazonaws.com:38573 { session user-enabled state user-up } } 
 modify ltm pool pool_elorouter_banese_38573_210 members modify { k8s-prd-eloroute-d654c18a0d-939110f3355a4996.elb.sa-east-1.amazonaws.com:38576 { session user-disabled state user-down } }                 
 modify ltm pool pool_elorouter_banese_38573_220 members modify { k8s-prd-eloroute-e5ce15a311-063b91b3e11ca6f5.elb.sa-east-1.amazonaws.com:38574 { session user-enabled state user-up } } 
 modify ltm pool pool_elorouter_banese_38573_220 members modify { k8s-prd-eloroute-d654c18a0d-939110f3355a4996.elb.sa-east-1.amazonaws.com:38577 { session user-disabled state user-down } }
+
+delete sys connection cs-server-port 28573
+delete sys connection cs-server-port 38573
 
 
 
@@ -501,6 +632,8 @@ modify ltm pool pool_elorouter_itspay_banese_38233_210 members modify { k8s-prd-
 modify ltm pool pool_elorouter_itspay_banese_38233_210 members modify { k8s-prd-eloroute-c141bccc52-94cf9568e01829dd.elb.sa-east-1.amazonaws.com:38236 { session user-disabled state user-down } }                                 
 modify ltm pool pool_elorouter_itspay_banese_38233_220 members modify { k8s-prd-eloroute-60577845a7-09abd46be8553fcf.elb.sa-east-1.amazonaws.com:38234 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_itspay_banese_38233_220 members modify { k8s-prd-eloroute-c141bccc52-94cf9568e01829dd.elb.sa-east-1.amazonaws.com:38237 { session user-disabled state user-down } } 
+
+delete sys connection cs-server-port 38233
 
 
 
@@ -514,6 +647,9 @@ modify ltm pool pool_elorouter_csu_banese_38423_210 members modify { k8s-prd-elo
 modify ltm pool pool_elorouter_csu_banese_38423_220 members modify { k8s-prd-eloroute-ff92b426d6-d184cb603f164b20.elb.sa-east-1.amazonaws.com:38424 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_csu_banese_38423_220 members modify { k8s-prd-eloroute-94f9657fe4-d488febae1ce3ca2.elb.sa-east-1.amazonaws.com:38427 { session user-disabled state user-down } } 
 
+delete sys connection cs-server-port 28423
+delete sys connection cs-server-port 38423
+
 
 
 
@@ -525,11 +661,16 @@ modify ltm pool pool_elorouter_barigui_38713_210 members modify { k8s-prd-elorou
 modify ltm pool pool_elorouter_barigui_38713_210 members modify { k8s-prd-eloroute-0917cb7a23-c59f676cff452f07.elb.sa-east-1.amazonaws.com:38716 { session user-disabled state user-down } }                               
 modify ltm pool pool_elorouter_barigui_38713_220 members modify { k8s-prd-eloroute-0175c09040-27e5e2781358c1c0.elb.sa-east-1.amazonaws.com:38714 { session user-enabled state user-up } }   
 modify ltm pool pool_elorouter_barigui_38713_220 members modify { k8s-prd-eloroute-0917cb7a23-c59f676cff452f07.elb.sa-east-1.amazonaws.com:38717 { session user-disabled state user-down } }              
-                   
+
+delete sys connection cs-server-port 28713
+delete sys connection cs-server-port 38713
+
 modify ltm pool pool_elorouter_barigui_38723_210 members modify { k8s-prd-eloroute-0175c09040-27e5e2781358c1c0.elb.sa-east-1.amazonaws.com:38723 { session user-enabled state user-up } }  
 modify ltm pool pool_elorouter_barigui_38723_210 members modify { k8s-prd-eloroute-0917cb7a23-c59f676cff452f07.elb.sa-east-1.amazonaws.com:38726 { session user-disabled state user-down } }                
 modify ltm pool pool_elorouter_barigui_38723_220 members modify { k8s-prd-eloroute-0175c09040-27e5e2781358c1c0.elb.sa-east-1.amazonaws.com:38724 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_barigui_38723_220 members modify { k8s-prd-eloroute-0917cb7a23-c59f676cff452f07.elb.sa-east-1.amazonaws.com:38727 { session user-disabled state user-down } } 
+
+delete sys connection cs-server-port 38723
 
 
 
@@ -543,12 +684,18 @@ modify ltm pool pool_elorouter_bb_38103_210 members modify { k8s-prd-eloroute-8a
 modify ltm pool pool_elorouter_bb_38103_220 members modify { k8s-prd-eloroute-cf98f9a3a1-8d50fe991a86925e.elb.sa-east-1.amazonaws.com:38104 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_bb_38103_220 members modify { k8s-prd-eloroute-8a74463513-dc0db27b50f91f15.elb.sa-east-1.amazonaws.com:38107 { session user-disabled state user-down } }
 
+delete sys connection cs-server-port 28103
+delete sys connection cs-server-port 38103
+
 modify ltm pool pool_engress_bb_28113 members modify { 10.35.170.131:28113 { session user-enabled state user-up } }
 modify ltm pool pool_engress_bb_28113 members modify { 10.36.170.131:28116 { session user-disabled state user-down } }
 modify ltm pool pool_elorouter_bb_38113_210 members modify { k8s-prd-eloroute-cf98f9a3a1-8d50fe991a86925e.elb.sa-east-1.amazonaws.com:38113 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_bb_38113_210 members modify { k8s-prd-eloroute-8a74463513-dc0db27b50f91f15.elb.sa-east-1.amazonaws.com:38116 { session user-disabled state user-down } }
 modify ltm pool pool_elorouter_bb_38113_220 members modify { k8s-prd-eloroute-cf98f9a3a1-8d50fe991a86925e.elb.sa-east-1.amazonaws.com:38114 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_bb_38113_220 members modify { k8s-prd-eloroute-8a74463513-dc0db27b50f91f15.elb.sa-east-1.amazonaws.com:38117 { session user-disabled state user-down } }
+
+delete sys connection cs-server-port 28113
+delete sys connection cs-server-port 38113
 
 modify ltm pool pool_engress_bb_28133 members modify { 10.35.170.131:28133 { session user-enabled state user-up } }
 modify ltm pool pool_engress_bb_28133 members modify { 10.36.170.131:28133 { session user-disabled state user-down } }
@@ -557,12 +704,18 @@ modify ltm pool pool_elorouter_bb_38133_210 members modify { k8s-prd-eloroute-34
 modify ltm pool pool_elorouter_bb_38133_220 members modify { k8s-prd-eloroute-8a57f4250d-ae3e98b301af7ac9.elb.sa-east-1.amazonaws.com:38134 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_bb_38133_220 members modify { k8s-prd-eloroute-341fc935e5-aa054f0c875d474a.elb.sa-east-1.amazonaws.com:38137 { session user-disabled state user-down } } 
 
+delete sys connection cs-server-port 28133
+delete sys connection cs-server-port 38133
+
 modify ltm pool pool_engress_bb_28143 members modify { 10.35.170.131:28143 { session user-enabled state user-up } }                                 
 modify ltm pool pool_engress_bb_28143 members modify { 10.36.170.131:28146 { session user-disabled state user-down } }                  
 modify ltm pool pool_elorouter_bb_38143_210 members modify { k8s-prd-eloroute-8a57f4250d-ae3e98b301af7ac9.elb.sa-east-1.amazonaws.com:38143 { session user-enabled state user-up } } 
 modify ltm pool pool_elorouter_bb_38143_210 members modify { k8s-prd-eloroute-341fc935e5-aa054f0c875d474a.elb.sa-east-1.amazonaws.com:38146 { session user-disabled state user-down } }                        
 modify ltm pool pool_elorouter_bb_38143_220 members modify { k8s-prd-eloroute-8a57f4250d-ae3e98b301af7ac9.elb.sa-east-1.amazonaws.com:38144 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_bb_38143_220 members modify { k8s-prd-eloroute-341fc935e5-aa054f0c875d474a.elb.sa-east-1.amazonaws.com:38147 { session user-disabled state user-down } }
+
+delete sys connection cs-server-port 28143
+delete sys connection cs-server-port 38143
 
 
 
@@ -576,6 +729,9 @@ modify ltm pool pool_elorouter_bbc_38863_210 members modify { k8s-prd-eloroute-0
 modify ltm pool pool_elorouter_bbc_38863_220 members modify { k8s-prd-eloroute-cdfc613bc4-0c429bcf9be4463f.elb.sa-east-1.amazonaws.com:38864 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_bbc_38863_220 members modify { k8s-prd-eloroute-0262c29b42-32c9e98bf5bbfbf9.elb.sa-east-1.amazonaws.com:38867 { session user-disabled state user-down } }
 
+delete sys connection cs-server-port 28863
+delete sys connection cs-server-port 38863
+
 
 
 
@@ -587,6 +743,9 @@ modify ltm pool pool_elorouter_becker_38683_210 members modify { k8s-prd-elorout
 modify ltm pool pool_elorouter_becker_38683_210 members modify { k8s-prd-eloroute-aac284d85e-eb45ec7118068ef9.elb.sa-east-1.amazonaws.com:38686 { session user-disabled state user-down } }                       
 modify ltm pool pool_elorouter_becker_38683_210 members modify { k8s-prd-eloroute-855ea3a956-aa76f73acc66306f.elb.sa-east-1.amazonaws.com:38684 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_becker_38683_210 members modify { k8s-prd-eloroute-aac284d85e-eb45ec7118068ef9.elb.sa-east-1.amazonaws.com:38687 { session user-disabled state user-down } }
+
+delete sys connection cs-server-port 28683
+delete sys connection cs-server-port 38683
 
 
 
@@ -600,6 +759,9 @@ modify ltm pool pool_elorouter_bradescard_38223_210 members modify { k8s-prd-elo
 modify ltm pool pool_elorouter_bradescard_38223_220 members modify { k8s-prd-eloroute-30372a465a-23a31935d22fcb2d.elb.sa-east-1.amazonaws.com:38224 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_bradescard_38223_220 members modify { k8s-prd-eloroute-0c4fd930c3-b494ffeb8369be2f.elb.sa-east-1.amazonaws.com:38227 { session user-disabled state user-down } }
 
+delete sys connection cs-server-port 28223
+delete sys connection cs-server-port 38223
+
 
 
 
@@ -611,6 +773,9 @@ modify ltm pool pool_elorouter_bradesco_credito_38203_210 members modify { k8s-p
 modify ltm pool pool_elorouter_bradesco_credito_38203_210 members modify { k8s-prd-eloroute-8332e29df8-b4993d02a1b3e483.elb.sa-east-1.amazonaws.com:38206 { session user-disabled state user-down } }          
 modify ltm pool pool_elorouter_bradesco_credito_38203_220 members modify { k8s-prd-eloroute-7f28965c1e-5a7584915ea3a56e.elb.sa-east-1.amazonaws.com:38204 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_bradesco_credito_38203_220 members modify { k8s-prd-eloroute-8332e29df8-b4993d02a1b3e483.elb.sa-east-1.amazonaws.com:38207 { session user-disabled state user-down } }
+
+delete sys connection cs-server-port 28203
+delete sys connection cs-server-port 38203
 
 
 
@@ -624,6 +789,9 @@ modify ltm pool pool_elorouter_bradesco_debito_38213_210 members modify { k8s-pr
 modify ltm pool pool_elorouter_bradesco_debito_38213_220 members modify { k8s-prd-eloroute-30372a465a-23a31935d22fcb2d.elb.sa-east-1.amazonaws.com:38214 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_bradesco_debito_38213_220 members modify { k8s-prd-eloroute-62fe740db1-57aae8d24a13839e.elb.sa-east-1.amazonaws.com:38217 { session user-disabled state user-down } } 
 
+delete sys connection cs-server-port 28213
+delete sys connection cs-server-port 38213
+
 
 
 
@@ -635,7 +803,10 @@ modify ltm pool pool_elorouter_bradesco_prepago_38193_210 members modify { k8s-p
 modify ltm pool pool_elorouter_bradesco_prepago_38193_210 members modify { k8s-prd-eloroute-8332e29df8-b4993d02a1b3e483.elb.sa-east-1.amazonaws.com:38196 { session user-disabled state user-down } }               
 modify ltm pool pool_elorouter_bradesco_prepago_38193_220 members modify { k8s-prd-eloroute-7f28965c1e-5a7584915ea3a56e.elb.sa-east-1.amazonaws.com:38194 { session user-enabled state user-up } } 
 modify ltm pool pool_elorouter_bradesco_prepago_38193_220 members modify { k8s-prd-eloroute-8332e29df8-b4993d02a1b3e483.elb.sa-east-1.amazonaws.com:38197 { session user-disabled state user-down } }                   
-                    
+
+delete sys connection cs-server-port 28193
+delete sys connection cs-server-port 38193
+
 
 
 
@@ -647,6 +818,9 @@ modify ltm pool pool_elorouter_caixa_credito_38463_210 members modify { k8s-prd-
 modify ltm pool pool_elorouter_caixa_credito_38463_210 members modify { k8s-prd-eloroute-21b109c7f6-bd8f1e4ad95908d8.elb.sa-east-1.amazonaws.com:38466 { session user-disabled state user-down } }           
 modify ltm pool pool_elorouter_caixa_credito_38463_220 members modify { k8s-prd-eloroute-8c6f7d4e5f-8182582379225d8a.elb.sa-east-1.amazonaws.com:38464 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_caixa_credito_38463_220 members modify { k8s-prd-eloroute-21b109c7f6-bd8f1e4ad95908d8.elb.sa-east-1.amazonaws.com:38467 { session user-disabled state user-down } }
+
+delete sys connection cs-server-port 28463
+delete sys connection cs-server-port 38463
 
 
 
@@ -660,12 +834,18 @@ modify ltm pool pool_elorouter_caixa_debito_38483_210 members modify { k8s-prd-e
 modify ltm pool pool_elorouter_caixa_debito_38483_220 members modify { k8s-prd-eloroute-81a0bb6acd-c8196bcea30eb699.elb.sa-east-1.amazonaws.com:38484 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_caixa_debito_38483_220 members modify { k8s-prd-eloroute-02795172a5-a208bbcbc3fdeabf.elb.sa-east-1.amazonaws.com:38487 { session user-disabled state user-down } }
 
+delete sys connection cs-server-port 28483
+delete sys connection cs-server-port 38483
+
 modify ltm pool pool_engress_caixa_debito_28633 members modify { 10.35.170.130:28633 { session user-enabled state user-up } }
 modify ltm pool pool_engress_caixa_debito_28633 members modify { 10.36.170.130:28636 { session user-disabled state user-down } } 
 modify ltm pool pool_elorouter_caixa_debito_38633_210 members modify { k8s-prd-eloroute-c497289c73-2054188186172f5a.elb.sa-east-1.amazonaws.com:38633 { session user-enabled state user-up } } 
 modify ltm pool pool_elorouter_caixa_debito_38633_210 members modify { k8s-prd-eloroute-ce7b83cac0-73c5aa285f567af3.elb.sa-east-1.amazonaws.com:38636 { session user-disabled state user-down } }            
 modify ltm pool pool_elorouter_caixa_debito_38633_220 members modify { k8s-prd-eloroute-c497289c73-2054188186172f5a.elb.sa-east-1.amazonaws.com:38634 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_caixa_debito_38633_220 members modify { k8s-prd-eloroute-ce7b83cac0-73c5aa285f567af3.elb.sa-east-1.amazonaws.com:38637 { session user-disabled state user-down } }
+
+delete sys connection cs-server-port 28633
+delete sys connection cs-server-port 38633
 
 
 
@@ -679,6 +859,9 @@ modify ltm pool pool_elorouter_cateno_38903_210 members modify { k8s-prd-elorout
 modify ltm pool pool_elorouter_cateno_38903_220 members modify { k8s-prd-eloroute-421f4cc32e-a288f8b08a23e2a0.elb.sa-east-1.amazonaws.com:38904 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_cateno_38903_220 members modify { k8s-prd-eloroute-690c7d1bac-c25d27b9ad86ba08.elb.sa-east-1.amazonaws.com:38907 { session user-disabled state user-down } }
 
+delete sys connection cs-server-port 28903
+delete sys connection cs-server-port 38903
+
      
                                    
                       
@@ -688,6 +871,8 @@ modify ltm pool pool_elorouter_ecvan_38303_210 members modify { k8s-prd-eloroute
 modify ltm pool pool_elorouter_ecvan_38303_210 members modify { k8s-prd-eloroute-d9386e4e22-f61205ea62b3e6a4.elb.sa-east-1.amazonaws.com:38306 { session user-disabled state user-down } }                                         
 modify ltm pool pool_elorouter_ecvan_38303_220 members modify { k8s-prd-eloroute-7b35e1bdce-ed08b9a07ba9d875.elb.sa-east-1.amazonaws.com:38304 { session user-enabled state user-up } } 
 modify ltm pool pool_elorouter_ecvan_38303_220 members modify { k8s-prd-eloroute-d9386e4e22-f61205ea62b3e6a4.elb.sa-east-1.amazonaws.com:38307 { session user-disabled state user-down } }    
+
+delete sys connection cs-server-port 38303
 
 
  
@@ -701,6 +886,9 @@ modify ltm pool pool_elorouter_itspay_bank10_38803_210 members modify { k8s-prd-
 modify ltm pool pool_elorouter_itspay_bank10_38803_220 members modify { k8s-prd-eloroute-60577845a7-09abd46be8553fcf.elb.sa-east-1.amazonaws.com:38804 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_itspay_bank10_38803_220 members modify { k8s-prd-eloroute-c141bccc52-94cf9568e01829dd.elb.sa-east-1.amazonaws.com:38807 { session user-disabled state user-down } }
 
+delete sys connection cs-server-port 28803
+delete sys connection cs-server-port 38803
+
 
 
 
@@ -712,6 +900,9 @@ modify ltm pool pool_elorouter_itspay_cellerpay_38663_210 members modify { k8s-p
 modify ltm pool pool_elorouter_itspay_cellerpay_38663_210 members modify { k8s-prd-eloroute-629b3f7bbe-1bde0c8447603404.elb.sa-east-1.amazonaws.com:38666 { session user-disabled state user-down } }       
 modify ltm pool pool_elorouter_itspay_cellerpay_38663_220 members modify { k8s-prd-eloroute-13f316d0db-4a72f0677d99ecb5.elb.sa-east-1.amazonaws.com:38664 { session user-enabled state user-up } }        
 modify ltm pool pool_elorouter_itspay_cellerpay_38663_220 members modify { k8s-prd-eloroute-629b3f7bbe-1bde0c8447603404.elb.sa-east-1.amazonaws.com:38667 { session user-disabled state user-down } }         
+
+delete sys connection cs-server-port 28663
+delete sys connection cs-server-port 38663
 
 
 
@@ -725,6 +916,9 @@ modify ltm pool pool_elorouter_paysmart_issuer_38873_210 members modify { k8s-pr
 modify ltm pool pool_elorouter_paysmart_issuer_38873_220 members modify { k8s-prd-eloroute-cdfc613bc4-0c429bcf9be4463f.elb.sa-east-1.amazonaws.com:38874 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_paysmart_issuer_38873_220 members modify { k8s-prd-eloroute-0262c29b42-32c9e98bf5bbfbf9.elb.sa-east-1.amazonaws.com:38877 { session user-disabled state user-down } }      
 
+delete sys connection cs-server-port 28873
+delete sys connection cs-server-port 38873
+
 
 
 
@@ -737,6 +931,9 @@ modify ltm pool pool_elorouter_verdecard_38763_210 members modify { k8s-prd-elor
 modify ltm pool pool_elorouter_verdecard_38763_220 members modify { k8s-prd-eloroute-60577845a7-09abd46be8553fcf.elb.sa-east-1.amazonaws.com:38764 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_verdecard_38763_220 members modify { k8s-prd-eloroute-c141bccc52-94cf9568e01829dd.elb.sa-east-1.amazonaws.com:38767 { session user-disabled state user-down } }
 
+delete sys connection cs-server-port 28763
+delete sys connection cs-server-port 38763
+
 
 
 
@@ -748,11 +945,16 @@ modify ltm pool pool_elorouter_paysmart_sulcredi_38883_210 members modify { k8s-
 modify ltm pool pool_elorouter_paysmart_sulcredi_38883_210 members modify { k8s-prd-eloroute-0262c29b42-32c9e98bf5bbfbf9.elb.sa-east-1.amazonaws.com:38886 { session user-disabled state user-down } }
 modify ltm pool pool_elorouter_paysmart_sulcredi_38883_220 members modify { k8s-prd-eloroute-cdfc613bc4-0c429bcf9be4463f.elb.sa-east-1.amazonaws.com:38884 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_paysmart_sulcredi_38883_220 members modify { k8s-prd-eloroute-0262c29b42-32c9e98bf5bbfbf9.elb.sa-east-1.amazonaws.com:38887 { session user-disabled state user-down } }
- 
+
+delete sys connection cs-server-port 28883
+delete sys connection cs-server-port 38883
+
 modify ltm pool pool_elorouter_paysmart_sulcredi_38833_210 members modify { k8s-prd-eloroute-0175c09040-27e5e2781358c1c0.elb.sa-east-1.amazonaws.com:38833 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_paysmart_sulcredi_38833_210 members modify { k8s-prd-eloroute-0917cb7a23-c59f676cff452f07.elb.sa-east-1.amazonaws.com:38836 { session user-disabled state user-down } }
 modify ltm pool pool_elorouter_paysmart_sulcredi_38833_220 members modify { k8s-prd-eloroute-0175c09040-27e5e2781358c1c0.elb.sa-east-1.amazonaws.com:38834 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_paysmart_sulcredi_38833_220 members modify { k8s-prd-eloroute-0917cb7a23-c59f676cff452f07.elb.sa-east-1.amazonaws.com:38837 { session user-disabled state user-down } }
+
+delete sys connection cs-server-port 38833
 
 
 
