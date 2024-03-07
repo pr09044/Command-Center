@@ -262,7 +262,8 @@ delete sys connection cs-server-port 38216
 
 
 
-bradesco_prepago
+BRADESCO PREPAGO 
+
 modify ltm pool pool_engress_bradesco_prepago_28196 members modify { 10.35.170.131:28193 { session user-enabled state user-up } }
 modify ltm pool pool_engress_bradesco_prepago_28196 members modify { 10.36.170.131:28196 { session user-disabled state user-down } }
 modify ltm pool pool_elorouter_bradesco_prepago_38196_210 members modify { 10.35.181.12:38196 { session user-disabled state user-down } }
