@@ -244,6 +244,11 @@ modify ltm pool pool_elorouter_bradesco_credito_38206_220 members modify { k8s-p
 delete sys connection cs-server-port 28206
 delete sys connection cs-server-port 38206
 
+
+
+
+BRADESCO DEBITO 
+
 modify ltm pool pool_engress_bradesco_debito_28216 members modify { 10.35.170.131:28213 { session user-enabled state user-up } }
 modify ltm pool pool_engress_bradesco_debito_28216 members modify { 10.36.170.131:28216 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_bradesco_debito_38216_210 members modify { 10.35.181.12:38216 { session user-enabled state user-up } }
