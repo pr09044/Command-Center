@@ -40,7 +40,7 @@ show sys connection virtual-server vs_ingress_nest_27146
 
 
 
-DELETES DE SESSÕES L4 SP 
+DELETES DE SESSÕES L4 RJ
 
 
 delete sys connection virtual-server vs_ingress_nest_27016
