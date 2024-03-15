@@ -739,8 +739,8 @@ modify ltm pool pool_engress_becker_28683 members modify { 10.35.170.131:28683 {
 modify ltm pool pool_engress_becker_28683 members modify { 10.36.170.131:28686 { session user-enabled state user-up } }               
 modify ltm pool pool_elorouter_becker_38683_210 members modify { k8s-prd-eloroute-855ea3a956-aa76f73acc66306f.elb.sa-east-1.amazonaws.com:38683 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_becker_38683_210 members modify { k8s-prd-eloroute-aac284d85e-eb45ec7118068ef9.elb.sa-east-1.amazonaws.com:38686 { session user-enabled state user-up } }                    
-modify ltm pool pool_elorouter_becker_38683_210 members modify { k8s-prd-eloroute-855ea3a956-aa76f73acc66306f.elb.sa-east-1.amazonaws.com:38684 { session user-enabled state user-up } }
-modify ltm pool pool_elorouter_becker_38683_210 members modify { k8s-prd-eloroute-aac284d85e-eb45ec7118068ef9.elb.sa-east-1.amazonaws.com:38687 { session user-enabled state user-up } }
+modify ltm pool pool_elorouter_becker_38683_220 members modify { k8s-prd-eloroute-855ea3a956-aa76f73acc66306f.elb.sa-east-1.amazonaws.com:38684 { session user-enabled state user-up } }
+modify ltm pool pool_elorouter_becker_38683_220 members modify { k8s-prd-eloroute-aac284d85e-eb45ec7118068ef9.elb.sa-east-1.amazonaws.com:38687 { session user-enabled state user-up } }
 
 delete sys connection cs-server-port 28683
 delete sys connection cs-server-port 38683
