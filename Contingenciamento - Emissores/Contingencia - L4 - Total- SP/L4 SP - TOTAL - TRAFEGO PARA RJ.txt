@@ -697,7 +697,7 @@ delete sys connection cs-server-port 28113
 delete sys connection cs-server-port 38113
 
 modify ltm pool pool_engress_bb_28133 members modify { 10.35.170.131:28133 { session user-disabled state user-down } }
-modify ltm pool pool_engress_bb_28133 members modify { 10.36.170.131:28133 { session user-enabled state user-up } }
+modify ltm pool pool_engress_bb_28133 members modify { 10.36.170.131:28136 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_bb_38133_210 members modify { k8s-prd-eloroute-8a57f4250d-ae3e98b301af7ac9.elb.sa-east-1.amazonaws.com:38133 { session user-disabled state user-down } }
 modify ltm pool pool_elorouter_bb_38133_210 members modify { k8s-prd-eloroute-341fc935e5-aa054f0c875d474a.elb.sa-east-1.amazonaws.com:38136 { session user-enabled state user-up } }                        
 modify ltm pool pool_elorouter_bb_38133_220 members modify { k8s-prd-eloroute-8a57f4250d-ae3e98b301af7ac9.elb.sa-east-1.amazonaws.com:38134 { session user-disabled state user-down } }
