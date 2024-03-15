@@ -412,27 +412,23 @@ delete sys connection cs-server-port 38746
 
 
 
+PEFISA
 
-pool_egress_pismo_pefisa_28946
 modify ltm pool pool_egress_pismo_pefisa_28946 members modify { 10.35.170.130:28943 { session user-disabled state user-down } }
 modify ltm pool pool_egress_pismo_pefisa_28946 members modify { 10.36.170.130:28946 { session user-enabled state user-up } }
-
-
-
-pool_engress_pefisa_28706
 modify ltm pool pool_engress_pefisa_28706 members modify { 10.35.170.131:28703 { session user-disabled state user-down } }
 modify ltm pool pool_engress_pefisa_28706 members modify { 10.36.170.131:28706 { session user-enabled state user-up } }
-
-pool_elorouter_pefisa_38706_210
 modify ltm pool pool_elorouter_pefisa_38706_210 members modify { 10.35.181.12:38706 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_pefisa_38706_210 members modify { k8s-prd-eloroute-2edcbbbe68-39c0df719b05ffc2.elb.sa-east-1.amazonaws.com:38703 { session user-disabled state user-down } }
 modify ltm pool pool_elorouter_pefisa_38706_210 members modify { k8s-prd-eloroute-d7bee667ff-b39572a098fcf676.elb.sa-east-1.amazonaws.com:38706 { session user-enabled state user-up } }
-pool_elorouter_pefisa_38706_220
 modify ltm pool pool_elorouter_pefisa_38706_220 members modify { 10.35.181.14:38706 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_pefisa_38706_220 members modify { k8s-prd-eloroute-2edcbbbe68-39c0df719b05ffc2.elb.sa-east-1.amazonaws.com:38704 { session user-disabled state user-down } }
 modify ltm pool pool_elorouter_pefisa_38706_220 members modify { k8s-prd-eloroute-d7bee667ff-b39572a098fcf676.elb.sa-east-1.amazonaws.com:38707 { session user-enabled state user-up } }
 
-
+delete sys connection cs-server-port 28946
+delete sys connection cs-server-port 28706
+delete sys connection cs-server-port 38706
+delete sys connection cs-server-port 28696
 
 pool_egress_conductor_pefisa_debito_28696
 modify ltm pool pool_egress_conductor_pefisa_debito_28696 members modify { 10.35.170.131:28703 { session user-disabled state user-down } }
