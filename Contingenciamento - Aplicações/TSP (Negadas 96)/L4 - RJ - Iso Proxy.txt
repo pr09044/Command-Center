@@ -46,21 +46,21 @@ ________________________________________________________________________________
 
 modify ltm pool pool_isoproxy_tsp_31510 members modify { 10.35.180.110:6000 { session user-enabled state user-up } }
 modify ltm pool pool_isoproxy_tsp_31510 members modify { 10.35.180.120:6000 { session user-enabled state user-up } }
-modify ltm pool pool_isoproxy_tsp_31510 members modify { 10.98.113.222:7777 { session user-disabled state user-down } }
-modify ltm pool pool_isoproxy_tsp_31510 members modify { 10.98.191.181:7777 { session user-disabled state user-down } }
-modify ltm pool pool_isoproxy_tsp_31510 members modify { 10.98.54.110:7777 { session user-disabled state user-down } }
-modify ltm pool pool_isoproxy_tsp_31510 members modify { 10.98.158.127:8888 { session user-disabled state user-down } }
-modify ltm pool pool_isoproxy_tsp_31510 members modify { 10.98.37.227:8888 { session user-disabled state user-down } }
-modify ltm pool pool_isoproxy_tsp_31510 members modify { 10.98.93.34:8888 { session user-disabled state user-down } }
+modify ltm pool pool_isoproxy_tsp_31510 members modify { 10.98.113.222:7777 { session user-disabled state user-up } }
+modify ltm pool pool_isoproxy_tsp_31510 members modify { 10.98.191.181:7777 { session user-disabled state user-up } }
+modify ltm pool pool_isoproxy_tsp_31510 members modify { 10.98.54.110:7777 { session user-disabled state user-up } }
+modify ltm pool pool_isoproxy_tsp_31510 members modify { 10.98.158.127:8888 { session user-disabled state user-up } }
+modify ltm pool pool_isoproxy_tsp_31510 members modify { 10.98.37.227:8888 { session user-disabled state user-up } }
+modify ltm pool pool_isoproxy_tsp_31510 members modify { 10.98.93.34:8888 { session user-disabled state user-up } }
 
 modify ltm pool pool_isoproxy_tsp_31511 members modify { 10.35.180.110:6001 { session user-enabled state user-up } }
 modify ltm pool pool_isoproxy_tsp_31511 members modify { 10.35.180.120:6001 { session user-enabled state user-up } }
-modify ltm pool pool_isoproxy_tsp_31511 members modify { 10.98.145.4:7777 { session user-disabled state user-down } }
-modify ltm pool pool_isoproxy_tsp_31511 members modify { 10.98.40.81:7777 { session user-disabled state user-down } }
-modify ltm pool pool_isoproxy_tsp_31511 members modify { 10.98.98.37:7777 { session user-disabled state user-down } }
-modify ltm pool pool_isoproxy_tsp_31511 members modify { 10.98.133.79:8888 { session user-disabled state user-down } }
-modify ltm pool pool_isoproxy_tsp_31511 members modify { 10.98.29.161:8888 { session user-disabled state user-down } }
-modify ltm pool pool_isoproxy_tsp_31511 members modify { 10.98.68.109:8888 { session user-disabled state user-down } }
+modify ltm pool pool_isoproxy_tsp_31511 members modify { 10.98.145.4:7777 { session user-disabled state user-up } }
+modify ltm pool pool_isoproxy_tsp_31511 members modify { 10.98.40.81:7777 { session user-disabled state user-up } }
+modify ltm pool pool_isoproxy_tsp_31511 members modify { 10.98.98.37:7777 { session user-disabled state user-up } }
+modify ltm pool pool_isoproxy_tsp_31511 members modify { 10.98.133.79:8888 { session user-disabled state user-up } }
+modify ltm pool pool_isoproxy_tsp_31511 members modify { 10.98.29.161:8888 { session user-disabled state user-up } }
+modify ltm pool pool_isoproxy_tsp_31511 members modify { 10.98.68.109:8888 { session user-disabled state user-up } }
 			
 _____________________________________________________________________________________________________________________________________________________	
                                      _                                  __    _____         _ 
