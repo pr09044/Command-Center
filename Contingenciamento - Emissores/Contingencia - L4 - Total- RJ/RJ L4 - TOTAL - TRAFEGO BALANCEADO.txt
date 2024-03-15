@@ -123,7 +123,7 @@ BBC
 
 modify ltm pool pool_engress_bbc_28866 members modify { 10.35.170.131:28863 { session user-enabled state user-up } }
 modify ltm pool pool_engress_bbc_28866 members modify { 10.36.170.131:28866 { session user-enabled state user-up } }
-modify ltm pool pool_elorouter_bbc_38866_210 members modify { 10.35.181.12:38866{ session user-disabled state user-down } }
+modify ltm pool pool_elorouter_bbc_38866_210 members modify { 10.35.181.12:38866{ session user-enabled state user-up } }
 modify ltm pool pool_elorouter_bbc_38866_210 members modify { k8s-prd-eloroute-cdfc613bc4-0c429bcf9be4463f.elb.sa-east-1.amazonaws.com:38863 { session user-enabled state user-up } } 
 modify ltm pool pool_elorouter_bbc_38866_210 members modify { k8s-prd-eloroute-0262c29b42-32c9e98bf5bbfbf9.elb.sa-east-1.amazonaws.com:38866 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_bbc_38866_220 members modify { 10.35.181.14:38866 { session user-enabled state user-up } }
@@ -614,9 +614,9 @@ modify ltm pool pool_engress_caixa_debito_28636 members modify { 10.36.170.130:2
 modify ltm pool pool_elorouter_caixa_debito_38636_210 members modify { 10.35.181.12:38636 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_caixa_debito_38636_210 members modify { k8s-prd-eloroute-c497289c73-2054188186172f5a.elb.sa-east-1.amazonaws.com:38633 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_caixa_debito_38636_210 members modify { k8s-prd-eloroute-ce7b83cac0-73c5aa285f567af3.elb.sa-east-1.amazonaws.com:38636 { session user-enabled state user-up } }
-modify ltm pool pool_elorouter_caixa_debito_38636_220 members modify { 10.35.181.14:38486 { session user-enabled state user-up } }
-modify ltm pool pool_elorouter_caixa_debito_38636_220 members modify { k8s-prd-eloroute-81a0bb6acd-c8196bcea30eb699.elb.sa-east-1.amazonaws.com:38484 { session user-enabled state user-up } }
-modify ltm pool pool_elorouter_caixa_debito_38636_220 members modify { k8s-prd-eloroute-02795172a5-a208bbcbc3fdeabf.elb.sa-east-1.amazonaws.com:38487 { session user-enabled state user-up } }
+modify ltm pool pool_elorouter_caixa_debito_38636_220 members modify { 10.35.181.14:38636 { session user-enabled state user-up } }
+modify ltm pool pool_elorouter_caixa_debito_38636_220 members modify { k8s-prd-eloroute-c497289c73-2054188186172f5a.elb.sa-east-1.amazonaws.com:38634 { session user-enabled state user-up } }
+modify ltm pool pool_elorouter_caixa_debito_38636_220 members modify { k8s-prd-eloroute-ce7b83cac0-73c5aa285f567af3.elb.sa-east-1.amazonaws.com:38637 { session user-enabled state user-up } }
 
 delete sys connection cs-server-port 28636
 delete sys connection cs-server-port 38636
