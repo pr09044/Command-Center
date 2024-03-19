@@ -975,21 +975,18 @@ delete sys connection cs-server-port 38506
 
 
 PULSE
-pool_egress_pulse_28786
+
 modify ltm pool pool_egress_pulse_28786 members modify { 10.35.170.130:28783 { session user-disabled state user-down } }
 modify ltm pool pool_egress_pulse_28786 members modify { 10.36.170.130:28786 { session user-enabled state user-up } }
-pool_egress_pulse_28796
 modify ltm pool pool_egress_pulse_28796 members modify { 10.35.170.130:28793 { session user-disabled state user-down } }
 modify ltm pool pool_egress_pulse_28796 members modify { 10.36.170.130:28796 { session user-enabled state user-up } }
-pool_egress_pulse_rj_28786
 modify ltm pool pool_egress_pulse_rj_28786 members modify { 10.35.170.130:28783 { session user-disabled state user-down } }
 modify ltm pool pool_egress_pulse_rj_28786 members modify { 10.36.170.130:28786 { session user-enabled state user-up } }
-pool_egress_pulse_sp_28783
 modify ltm pool pool_egress_pulse_sp_28783 members modify { 10.35.170.130:28783 { session user-disabled state user-down } }
 modify ltm pool pool_egress_pulse_sp_28783 members modify { 10.36.170.130:28786 { session user-enabled state user-up } }
 
-delete sys connection cs-server-port 
-delete sys connection cs-server-port 
+delete sys connection cs-server-port 28786
+delete sys connection cs-server-port 28783
 
 
 
