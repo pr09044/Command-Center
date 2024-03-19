@@ -464,7 +464,7 @@ modify ltm pool pool_egress_conductor_vox_28316 members modify { 10.35.170.131:2
 modify ltm pool pool_egress_conductor_vox_28316 members modify { 10.36.170.131:28316 { session user-disabled state user-down } }
 modify ltm pool pool_elorouter_conductor_vox_38316_210 members modify { 10.35.181.12:38316 { session user-disabled state user-down } }
 modify ltm pool pool_elorouter_conductor_vox_38316_210 members modify { k8s-prd-eloroute-2f097a7d7e-97b32543b6b94d7e.elb.sa-east-1.amazonaws.com:38313 { session user-enabled state user-up } }
-modify ltm pool pool_elorouter_conductor_vox_38316_210 members members modify { k8s-prd-eloroute-8971805b07-9f02a3d2a3dabdbe.elb.sa-east-1.amazonaws.com:38316 { session user-disabled state user-down } }
+modify ltm pool pool_elorouter_conductor_vox_38316_210 members modify { k8s-prd-eloroute-8971805b07-9f02a3d2a3dabdbe.elb.sa-east-1.amazonaws.com:38316 { session user-disabled state user-down } }
 modify ltm pool pool_elorouter_conductor_vox_38316_220 members modify { 10.35.181.14:38316 { session user-disabled state user-down } }
 modify ltm pool pool_elorouter_conductor_vox_38316_220 members modify { k8s-prd-eloroute-2f097a7d7e-97b32543b6b94d7e.elb.sa-east-1.amazonaws.com:38314 { session user-enabled state user-up } }
 modify ltm pool pool_elorouter_conductor_vox_38316_220 members modify { k8s-prd-eloroute-8971805b07-9f02a3d2a3dabdbe.elb.sa-east-1.amazonaws.com:38317 { session user-disabled state user-down } }
